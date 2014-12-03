@@ -4,7 +4,7 @@ Fluvipp::App.controllers :base, map: '/' do
     render "base/home"
   end
 
-  get :advertisers do 
+  get :advertisers do
     render "base/advertirser"
   end
 

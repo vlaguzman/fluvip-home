@@ -66,11 +66,11 @@ es:
         title: Esto generamos en quienes confían en nosotros
         testimonials:
           testimonio_1:
-            content: '"Nunca habíamos generado tanto impacto en Perú. Conseguimos 6 veces más conversiones de lo acostumbrado". <br><small>Director E-Bussiness</small>'
+            content: '<quote>"Nunca habíamos generado tanto impacto en Perú. Conseguimos 6 veces más conversiones de lo acostumbrado".</quote><small>Director E-Bussiness</small>'
           testimonio_2:
-            content: '"Logramos identificar los validadores ideales para nuestras campañas, lo que nos garantiza que cada campaña es un caso de éxito". <small>Gerente de mercadeo</small>'
+            content: '<quote>"Logramos identificar los validadores ideales para nuestras campañas, lo que nos garantiza que cada campaña es un caso de éxito".</quote> <small>Gerente de mercadeo</small>'
           testimonio_3:
-            content: '"Optimizamos las campañas en tiempo real y logramos generar contenido de calidad y sentimiento positivo". <br><small>Director de cuentas</small>'
+            content: '<quote>"Optimizamos las campañas en tiempo real y logramos generar contenido de calidad y sentimiento positivo".</quote><small>Director de cuentas</small>'
       how:
         title: ¿Cómo funciona?
         content: <ul class='listdata'> <li><i class='fa fa-users'></i> <strong>Identifique</strong> los Influenciadores adecuados para su campaña.</li> <li><i class='fa fa-share-alt'></i> <strong>Publique</strong> su contenido en múltiples canales.</li> <li><i class='fa fa-area-chart'></i> <strong>Monitoreo</strong> en tiempo real y optimización de las campañas.</li> </ul>

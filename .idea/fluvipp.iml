@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="CompassSettings">
+    <option name="compassExecutableFilePath" value="$USER_HOME$/.rvm/gems/ruby-2.1.4@fluvipp/gems/compass-1.0.1/bin/compass" />
+    <option name="compassSupportEnabled" value="true" />
+    <option name="importPaths">
+      <list>
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.1.4@fluvipp/gems/compass-core-1.0.1/stylesheets" />
+      </list>
+    </option>
+  </component>
+  <component name="ModuleRunConfigurationManager">
+    <configuration default="false" name="foreman" type="CommandRunConfigurationType" factoryName="Gem Command">
+      <module name="fluvipp" />
+      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="foreman" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="foreman" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="start -c" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="start -c" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-2.1.4 [fluvipp]" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.1.8, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="awesome_print (v1.2.0, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="better_errors (v2.0.0, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.2, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="byebug (v3.5.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.3.3, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.0, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="columnize (v0.8.9, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass (v1.0.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass-core (v1.0.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass-import-once (v1.0.5, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="daemon_controller (v1.2.0, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debugger-linecache (v1.2.0, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv (v1.0.2, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.6, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="foreman (v0.76.0, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http_router (v0.11.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.11, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="method_source (v0.8.2, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.25.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.4.3, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="moneta (v0.7.20, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.10.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="newrelic_rpm (v3.9.7.266, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino (v0.12.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-admin (v0.12.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-cache (v0.12.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-core (v0.12.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-gen (v0.12.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-helpers (v0.12.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-mailer (v0.12.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-support (v0.12.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="passenger (v4.0.53, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.5, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry (v0.10.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry-byebug (v2.0.0, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry-remote (v0.1.8, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry-stack_explorer (v0.4.9.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-protection (v1.5.3, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.9.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.9.5, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.9, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.4.5, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="slop (v3.6.0, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.4, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.15, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="url_mount (v0.2.1, RVM: ruby-2.1.4 [fluvipp]) [gem]" level="application" />
+  </component>
+  <component name="RModuleSettingsStorage">
+    <LOAD_PATH number="0" />
+    <I18N_FOLDERS number="1" string0="$MODULE_DIR$/app/locale" />
+  </component>
+</module>

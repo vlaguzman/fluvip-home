@@ -66,11 +66,11 @@ en:
         title: Some thoughts of who trust us
         testimonials:
           testimonio_1:
-            content: '"We had never generated much impact in Peru. We got 6 times more conversions than usual". <br><small>E-Bussiness Director<br>AVIANCA</small>'
+            content: '<quote>"We had never generated much impact in Peru. We got 6 times more conversions than usual".</quote><small>E-Bussiness Director</small>'
           testimonio_2:
-            content: '"We identified the ideals validators for our campaigns, which guarantees that each campaign is a success". <small>Sales Manager <br>SONY</small>'
+            content: '<quote>"We identified the ideals validators for our campaigns, which guarantees that each campaign is a success".</quote> <small>Sales Manager</small>'
           testimonio_3:
-            content: '"We optimize campaigns in real time and we generate quality content and positive feeling". <br><small>Sales Manager <br>MINDSHARE</small>'
+            content: '<quote>"We optimize campaigns in real time and we generate quality content and positive feeling".</quote><small>Sales Manager</small>'
       how:
         title: How it works?
         content: <ul class='listdata'> <li><i class='fa fa-users'></i> <strong>Identify</strong> Influencers suitable for your campaign.</li> <li><i class='fa fa-share-alt'></i> <strong>Publish</strong> your content across multiple channels.</li> <li><i class='fa fa-area-chart'></i> Real-time <strong>monitoring</strong> and optimization of campaigns.</li> </ul>
