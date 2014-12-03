@@ -1,0 +1,30 @@
+// setup the grid (required) :
+@include kgrid_setup((
+  context : 12,
+  gutter-width : 30px,
+  debug : true
+));
+
+// clear each classes :
+@include kgrid_register_clear_each(12, both);
+
+// register states :
+@include kgrid_register_default_states();
+@include kgrid_register_state(ipad-landscape, (
+  query : "only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)",
+  gutter-width :0
+));
+
+
+@include kgrid_generate_classes();
+
+.container {
+  width: $container-width;
+  margin:0px auto;
+}
+
+.grid {
+  display:block;
+  position: relative;
+  clear:both;
+}

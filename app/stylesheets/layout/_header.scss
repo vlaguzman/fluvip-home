@@ -1,0 +1,222 @@
+// Principal navegation
+#principal-nav {
+  width:100%;
+  display:block;
+  top:0px;
+  left:0px;
+  @include border-box;
+  border:1px solid transparent;
+
+  -webkit-transition: background 1s ease;
+  -moz-transition: background 1s ease;
+  -o-transition: background 1s ease;
+  transition: background 1s ease;
+
+  // General styles for links
+  a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  // apareance for navbar slide
+  &.navbar-slide {
+    position:fixed;
+    z-index: 1030;
+    min-height: 50px;
+    background-color: $white;
+    border-radius: 0px;
+    border-bottom-color: $graybar;
+
+    .logo {
+      color:$black4;
+      background-image:url('/assets/logo-fluvip.png');
+      height: 60px;
+      background-size: contain; 
+      background-position:center center;
+      background-repeat:no-repeat; 
+    }
+
+    .menu-items-list {
+      padding-left: 20px;
+      li {
+        & > a {
+          color:darken($gray, 0.5%);
+          &.active, &:hover {
+            color:$gray;
+          }
+        }
+      }
+    }
+
+    .phone-dropdown {
+      .tel {
+        color:darken($gray, 0.5%);
+      }
+    }
+  }
+
+  // apareance for navbar transparent
+  &.navbar-transparent {
+    padding: 25px 0px;
+    z-index: 1001;
+    position:absolute;
+
+    .logo {
+      color:$black4;
+      height: 60px;
+      position: relative;
+      background-size: contain;
+      background-position:center center;
+      background-repeat:no-repeat;
+      background-image:url('/assets/logo-fluvip-2.png');
+      padding-left:40px;
+      
+    }
+    .menu-items-list {
+      padding-left: 20px;
+      li {
+        & > a {
+          &.active, &:hover {
+            color:$white;
+          }
+        }
+      }
+    }
+  }
+  
+
+  // position for logo and meni
+  .logo, .menu-items-list {
+    display:inline-block;
+    vertical-align: top;
+  }
+
+  // brand personalize
+  .logo {
+    font-size: 30px;
+    padding:13px 12px;
+    margin-left:-15px;
+    line-height:30px;
+  }
+  
+  // Menu items 
+  .menu-items-list {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+
+    li {
+      display:inline-block;
+      position:relative;
+      
+      &.dropdown {
+        a {
+          border-left:1px solid transparent;
+          &:hover {
+            background:rgba($footerbg, .05);
+            border-left:1px solid rgba($footerbg, .05);
+          }
+        }
+      }
+
+      & > a {
+        display:block;
+        line-height: 30px;
+        padding:15px;
+        text-transform: uppercase;
+        font-size: 13px;
+        color:lighten($gray,20%);
+        font-family: $medium-font-family;
+        
+        &.active, &:hover {
+          color:rgba($footerbg, .75);
+        }
+      }
+      
+      &:hover {
+        .dropdown-menu {
+          display:block;
+        }
+      }
+
+      // Preferences por dropdown menu
+      .dropdown-menu {
+        display:none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        float: left;
+        min-width: 160px;
+        padding: 10px 0;
+        margin: 0px 0 0;
+        font-size: 14px;
+        list-style: none;
+        background-color: $white;
+        border: 1px solid $gray;
+        border-radius: 4px;
+        background-clip: padding-box;
+
+        li { 
+          display:block;
+
+           a {
+            font-family: $base-font-family;
+            font-size: 14px;
+            display: block;
+            padding: 7px 20px;
+            clear: both;
+            font-weight: normal;
+            line-height: 1.428571429;
+            color: #4f5962;
+            white-space: nowrap;
+            text-transform: capitalize;
+
+            &:hover {
+              background:rgba($footerbg, .075);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Contact Menu
+  .contact-menu {
+    text-align: right;
+    line-height: 30px;
+    font-size:14px;
+    color:lighten($gray,20%);
+
+    .phone-dropdown, .sigin-button {
+      display:inline-block; 
+    }
+
+    // Phone dropdown actual
+    .phone-dropdown {
+      font-weight: bold;
+      margin-right:10px;
+    }
+
+    // Sigin and signup button
+    .sigin-button {
+      a {
+        display:block;
+        background:$siginbutton;
+        font-weight: bold;
+        border-radius:4px;
+        padding:6px 25px !important;  
+        color:$white;
+        text-shadow:0 1px 1px rgba(0,0,0,0.2);
+
+        &:hover {
+          background:darken($siginbutton, 15%);
+        }
+      }
+    }
+  }
+
+}

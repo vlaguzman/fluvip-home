@@ -1,0 +1,126 @@
+#principal-footer {
+  background-color:$footerbg;
+  padding:75px 0px 100px;
+  font-size:14px;
+  color:$footertext;
+
+  * {
+    color:$footertext;
+  }
+
+  .social-footer {
+    li {
+      margin:15px 0px;
+      i {
+        width:16px;
+        text-align: right;
+        margin-right: 10px;
+        font-size:16px;
+        text-align: center;
+        vertical-align: middle;
+
+
+      }
+    }
+  }
+  .form-contact {
+
+
+    .input {
+      display:block;
+      box-sizing: border-box;
+      width:100%;
+      margin:10px 0px;
+
+      input, textarea {
+        border:none;
+        background-color:$footerBgDarken;
+        box-sizing: border-box;
+        padding:10px 15px;
+        display: block;
+        width: 100%;
+        border-radius:6px;
+        border:1px solid darken($footerBgDarken, 4%);
+        box-shadow: 0 1px 1px rgba($white, 0.1),
+                    0 1px 3px rgba(#000, 0.2) inset;
+
+        &:focus {
+          background: darken($footerbg, 10%);
+          outline:none;
+        }
+      }
+    }
+
+    .input-submit {
+      input {
+        background:$siginbutton;
+        color:#fff;
+        width:100%;
+        display: block;
+        padding:10px 0px;
+        border:none;
+        text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+        border-radius:6px;
+
+      }
+    }
+  }
+
+  .divide {
+    width: 50px;
+    height: 1px;
+    margin: 10px 0px 10px 0px;
+    background-color: $gray;
+    opacity: .5;
+  }
+
+  h4 {
+    font-size:18px;
+    position:relative;
+    text-transform: uppercase;
+
+    &:after {
+      position:absolute;
+      bottom:-10px;
+      left:0px;
+      width:50px;
+      height:1px;
+      background:$gray;
+      content:' ';
+      opacity:.5;
+    }
+  }
+
+  .footer-menu {
+    padding-left: 0;
+    list-style: none;
+    
+    li {
+      margin:10px 0px;
+      a {
+        text-transform: capitalize;
+
+
+        &:hover {
+          color:$siginbutton;
+        }
+      }
+    }
+  }
+
+
+  address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.428571429;
+    
+    strong {
+      font-weight: bold;
+    }
+
+    abbr {
+      cursor: help;
+      border-bottom: 1px dotted #999999;
+    }
+  }
+}

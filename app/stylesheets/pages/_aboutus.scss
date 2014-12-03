@@ -1,0 +1,280 @@
+// PRINCIPAL SECTION WITH CALL TO ACTIONS
+#aboutus {
+  margin: 0px;
+  line-height: 2.1428571435;
+  //min-height: 100%;
+  position: relative;
+  background-image: url(/assets/57.jpg);
+  background-repeat:no-repeat;
+  background-position: 10% center;
+  background-size:cover;
+  
+  .landing {
+    width: 100%; 
+    background-color:rgba(0,0,0,0.5);
+    position: relative;
+
+    &:after {
+
+      
+      position: absolute;
+      content:' ';
+      width: 100%;
+      left:0;
+      top:0;
+      bottom:0;
+      right:0;
+      opacity: 1;
+
+    } 
+
+    .container {
+      padding: 80px 0px;
+
+      h1 {
+        font-size: 40px;
+        font-family: $light-font-family;
+        color: $white;
+        line-height: 1.5;
+        margin-left: -2px;
+        text-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
+      }
+
+      italic {
+        opacity: 0.8;
+        display:block;
+        font-size:25px;
+        font-style: italic;
+      }
+    }
+    
+  }
+}
+
+
+#about-usdata {
+  padding:70px 0px;
+
+  .content-data {
+    h1 {
+      font-size:4em;
+    }
+
+    .text-muted {
+      color:darken($gray, 8%);
+    }
+
+    .twitter_link {
+      display:block;
+      margin-top:30px;
+      font-size:60px;
+    }
+  }
+}
+
+#aboutus-content {
+  padding-bottom:120px;
+  text-align: center;
+
+  h1 {
+    font-size: 2.5em !important;
+    padding-bottom:50px;
+  }
+  .team-members {
+    padding-top:40px;
+    text-align:center;
+
+    &.morebig {
+
+      .avatar {
+        width:180px !important;
+        height:180px !important;
+      }
+    }
+
+    .member {
+      text-align: center;
+      color:$gray; 
+      margin-bottom:20px;
+
+      i {
+        margin:10px 5px;
+        font-size:18px;
+
+        &.fa-linkedin {
+          color: darken($siginbutton, 40%);
+        }
+      }
+
+      &:hover {
+        .avatar {
+          box-shadow:0 1px 3px rgba(0,0,0,0.2);
+          -webkit-filter: grayscale(0);
+          -ms-filter: grayscale(0);
+          filter: grayscale(0);
+        }
+
+        small {
+          color: $siginbutton;
+        }
+      }
+
+      .avatar {
+        display: block;
+        background-color:$gray;
+        background-size: cover;
+        background-position: center;
+        width:150px;
+        height:150px;
+        border-radius:50%;
+        margin:5px auto 15px;
+        position: relative;
+        border:2px solid $white;
+        transition:top 0.5s ease-in-out;
+        position: relative ;
+        top:0px;
+        -webkit-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+        filter: grayscale(1);
+
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+
+
+
+        &.sebastian {
+          background-image:url('/assets/team/sebastian.png');
+        }
+
+        &.julian {
+          background-image:url('/assets/team/julian.png');
+        }
+
+        &.juan {
+          background-image:url('/assets/team/juan.png');
+        }
+
+        &.vladimir {
+          background-image:url('/assets/team/vladimir.png');
+          background-size: 110%;
+        }
+
+        &.nicolas {
+          background-image:url('/assets/team/nicolas.png');
+        }
+        
+
+        &.milagros {
+          background-image:url('/assets/team/milagros.png');
+        }
+
+        &.eliecer {
+          background-image:url('/assets/team/eliecer.png');
+        }
+
+        &.lina {
+          background-image:url('/assets/team/lina.png');
+        }
+
+        &.pedro {
+          background-image:url('/assets/team/pedro.png');
+        }
+
+        &.andres {
+          background-image:url('/assets/team/andres.png');
+        }
+
+        &.diana {
+          background-image:url('/assets/team/diana.png');
+        }
+
+        &.camilo {
+          background-image:url('/assets/team/camil.png');
+        }
+
+        &.camilor {
+          background-image:url('/assets/team/camilo.png');
+        }
+
+        &.sebas {
+          background-image:url('/assets/team/sebas.png');
+        }
+
+        &.angel {
+          background-image:url('/assets/team/angel.png');
+        }
+
+        &.michel {
+          background-image:url('/assets/team/michel.png');
+        }
+
+        &.enrrique {
+          background-image:url('/assets/team/enrrique.png');
+        }
+        
+      }
+
+      p {
+        margin-top:0px;
+        font-size:14px;
+      }
+      small {
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        font-size: 12px; 
+        display: block;
+
+        color:$gray;
+        opacity: 0.8;
+        margin-top:0px;
+        font-weight: bold;
+
+        &:last-child {
+          font-style: italic;
+        }
+      }
+      
+    }
+  }
+}
+
+#aboutus-partners {
+
+  h1 {
+    font-size:4em;
+  }
+
+
+  .partners-list {
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:30px;
+    .partner {
+      padding:90px 0px;
+
+      &:hover {
+        img {
+          -webkit-filter: grayscale(0);
+          -ms-filter: grayscale(0);
+          filter: grayscale(0);
+        }
+      }
+      img {
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        -webkit-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+        filter: grayscale(1);
+      }
+    }
+  }
+}

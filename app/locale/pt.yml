@@ -1,0 +1,23 @@
+---
+pt:
+  home:
+    navegation:
+      home: home
+      advertiser: advertiser
+      influenciator: influenciator
+      weus: We us
+      login: login
+      terms: termos e Condições
+      privacy: termos de privacidade
+    footer:
+      titles:
+        company: compañia
+        legal: legal
+        contactus: contactanos
+        followus: siguenos
+      texts:
+        contactus: bla bla bla
+        followus: "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+          ullam tempora libero consequatur velit similique suscipit voluptas.</p>
+          <p>distinctio minima modi inventore fuga. Adipisci magni architecto, repudiandae
+          nesciunt ipsum vel laudantium.</p>"

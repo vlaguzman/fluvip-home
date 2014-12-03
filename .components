@@ -1,0 +1,9 @@
+---
+:orm: none
+:test: none
+:mock: none
+:script: jquery
+:renderer: erb
+:stylesheet: compass
+:namespace: Fluvipp
+:migration_format: number

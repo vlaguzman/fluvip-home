@@ -1,0 +1,112 @@
+.blue {
+    color:$siginbutton;
+  }
+
+.alto {
+  line-height: 20px;
+  margin-bottom:20px;
+  display: block;
+  content: ' '; 
+}
+
+
+#influenciator-container {
+  background-image: url('/assets/68.jpg');
+  background-size:cover;
+
+
+
+  .wrapper {
+    padding: 30px 0px 550px 0px;
+  }
+
+  .landing {
+      background:rgba(0,0,0,0.4);
+      
+
+      .descrip {
+        font-size:45px;
+        color:#fff;
+        line-height: 60px;
+      }
+
+
+      .btn {
+        margin-top:40px;
+        padding:15px 20px;
+        text-align: center;
+        font-size:16px;
+        background:$siginbutton;
+        color:#fff;
+        text-shadow:0 1px 1px rgba(0,0,0,0.2);
+        
+        &:hover {
+          background: darken($siginbutton, 10%); 
+        }
+      }
+  }
+}
+
+
+#map {
+  
+  position: relative;
+  background:rgba($siginbutton,0.9);
+
+  &:after {
+    background-image: url("/assets/faces.png");
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    position: absolute;
+    content:' ';
+    width: 100%;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    z-index: -1;
+
+  } 
+  
+
+  .border-rlight {
+    text-align:center;
+    
+    h4 {
+      color:#fff;
+      text-transform: capitalize;
+      font-size:70px !important;
+      margin:60px 0px;
+
+      .morebig {
+        font-size:80px !important;
+      }
+
+      small {
+        font-size:50px;
+      }
+
+    }
+  }
+}
+
+
+#validate-influenciator {
+
+  ul {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    margin-top:50px;
+
+    li {
+      color:$lighttext;
+      margin-bottom:30px;
+      i {
+        margin-left:5px;
+      }
+    }
+  }
+}

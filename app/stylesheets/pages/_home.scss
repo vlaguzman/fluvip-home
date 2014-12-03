@@ -1,0 +1,293 @@
+// PRINCIPAL SECTION WITH CALL TO ACTIONS
+#principal-home {
+  margin: 0px;
+  line-height: 2.1428571435;
+  position: relative;
+  background-image: url(/assets/footer-photo1.jpg);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size:cover;
+
+  .video-content {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    z-index: 1;
+    overflow: hidden;
+
+    video {
+      width:100%;
+      height:auto;
+    }
+  }
+  .landing {
+    left: 0;
+    width: 100%;
+    background-color:rgba(0,0,0,0.5);
+    position:relative;
+    z-index:99;
+    .container{
+      padding-top: 100px;
+
+      .wrapper {
+        width: 100%;
+        padding:100px 0px 350px 0px;
+        margin: 0 auto;
+
+        h1 {
+          font-size: 40px;
+          font-family: $light-font-family;
+          color: $white;
+          line-height: 1.5;
+          margin-left: -2px;
+          text-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
+        }
+
+        p {
+          font-size: 28px;
+          line-height: 1.3;
+          color: $white;
+          font-family: $base-font-family;
+          opacity: .8;
+          margin-bottom: 25px;
+          margin-top:12px;
+          text-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
+        }
+
+        .ingressButtons {
+          margin-top:50px;
+          position: relative;
+
+          &:hover {
+            em {
+              -ms-transform: rotate(360deg); /* IE 9 */
+              -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+              transform: rotate(360deg);
+            }
+          }
+
+          .btn {
+            color:$white;
+            text-shadow:0 1px 1px rgba(0,0,0,0.2);
+            text-transform: uppercase;
+            transition:all 0.5s ease-in-out;
+
+            .mini {
+              text-transform: capitalize;
+              text-shadow:0 1px 1px rgba(255,255,255,0.3);
+              
+            }
+            
+            &:hover {
+              background:$white !important;
+              color:$siginbutton;
+              text-shadow:none;
+
+            }
+
+            &.influenciator {
+              background:$siginbutton;
+              padding-right:35px;
+              border-top-right-radius:0px;
+              border-bottom-right-radius: 0px;
+              .mini { color:darken($siginbutton, 25%); }
+
+              
+            }
+
+            &.anunciante {
+              padding-left:35px;
+              border-top-left-radius:0px;
+              border-bottom-left-radius: 0px;
+              background:darken($siginbutton,20%);
+              .mini { color:darken($siginbutton, 45%); }
+            }
+          }
+
+          em {
+            pointer-events:none;
+            position: absolute;
+            top:10px;
+            margin-left: -20px;
+            font-family: $base-font-family;
+            font-style: normal; 
+            font-weight: bold;
+            font-size:15px;
+            background: darken($siginbutton,20%);
+            background: -moz-linear-gradient(left, darken($siginbutton,20%) 50%, $siginbutton 50%);
+            background: -webkit-gradient(linear, left top, right top, color-stop(50%,darken($siginbutton,20%)), color-stop(50%,$siginbutton));
+            background: -webkit-linear-gradient(left, darken($siginbutton,20%) 50%,$siginbutton 50%);
+            background: -o-linear-gradient(left, darken($siginbutton,20%) 50%,$siginbutton 50%);
+            background: -ms-linear-gradient(left, darken($siginbutton,20%) 50%,$siginbutton 50%);
+            background: linear-gradient(to right, darken($siginbutton,20%) 50%,$siginbutton 50%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='darken($siginbutton,20%)', endColorstr='$siginbutton',GradientType=1 );
+            
+            padding:5px 15px;
+            border-radius:50%;
+            color:lighten($siginbutton, 30%);
+            z-index: 99;
+
+            transition:all 0.5s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// LIST PRINCIPAL CLIENTS
+#clients {
+  display: block;
+
+  h1 {
+    font-size:36px;
+    color:$gray;
+    margin-bottom:45px !important;
+  }
+
+  .clients-list {
+    list-style:none;
+    margin-top:20px;
+    max-width: 2000px;
+    overflow: hidden;
+    overflow-x: scroll;
+
+    li {
+      display:inline-block;
+      @include kgrid(2);
+      img {
+        -webkit-filter: grayscale(100%);
+        margin:0px auto;
+        max-width: 70%;
+        position: relative;
+        opacity: 0.8;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+
+        &:hover{
+          -webkit-filter:grayscale(0%);
+          -ms-filter: grayscale(0%);
+          filter: grayscale(0%);
+        }
+      }
+    }
+  }
+}
+
+.section {
+  display:block;
+  position: relative;
+  
+
+  .image-top {
+    padding:120px 0px;
+    padding-left:30px;
+    box-sizing: border-box;
+    text-align: center;
+
+    img {
+      width:55%;
+    }
+  }
+}
+
+
+#clients-about {
+  padding:40px 0px 70px 0px;
+  
+  h1 {
+    font-size:36px;
+    color:$gray;
+    margin-bottom:45px !important;
+  }
+
+  .client-testimonial {
+    margin: 15px 0px 10px 0px;
+    text-align: center;
+    
+    .headshot {
+      vertical-align: top;
+      margin:auto;
+      text-align: center;
+      margin-bottom:40px;
+
+      img {
+        -webkit-border-radius: 50%; 
+        border-radius: 50%; 
+        width:100%;
+        max-width: 100px;
+        margin:auto;
+        margin-top:-10px
+      }
+    }
+
+    .quote {
+      vertical-align: top; 
+      text-align: center;
+
+      p {
+        &.text-testimonial {
+          padding-right:15px;
+          max-width:60%;
+          margin:-15.500px auto 20px auto;
+
+          small {
+            margin-top:10px;
+            display:block;
+            font-weight: bold;
+          }
+
+          img {
+            margin-top:5px;
+            max-width: 30%;
+          }
+        } 
+      }
+
+      .name {
+        font-family: $medium-font-family;
+        font-size: 18px;
+        color: inherit;
+        margin: 0px 0px 9px;
+      }
+
+      .small {
+        margin:0px;
+        font-size:14px;
+      }
+    }
+  }
+}
+
+#how {
+  .image-top {
+    padding:30px 0px;
+    padding-right:30px;
+    box-sizing: border-box;
+    img {
+
+    }
+  }
+
+  ul {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    margin-top:50px;
+
+    li {
+      color:$lighttext;
+      margin-bottom:30px;
+      i {
+        margin-left:5px;
+      }
+    }
+  }
+}

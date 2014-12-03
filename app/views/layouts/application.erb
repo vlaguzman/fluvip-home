@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FLUVIP – The #INFLUENCE Marketing Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <%= stylesheet_link_tag :fluvip %>
+</head>
+<body id="<%= @routename %>">
+  <nav id="principal-nav" class="<%= navegation_bar(@navegation) %>">
+    <div class="container">
+      <div class="grid-8 menu-items">
+        <a href="/" class="logo grid-2 grid-mobile-12" align=center></a>
+        <ul class="menu-items-list grid-10 hide-mobile">
+          <!--<li><a href="/"><%= i18('navegation.home') %></a></li>-->
+          <li><%= link_to(i18('navegation.advertiser'), url(:base, :advertisers)) %></li>
+          <li><%= link_to(i18('navegation.influenciator'), url(:base, :influenciators)) %></li>
+          <li><%= link_to(i18('navegation.weus'), url(:base, :aboutus)) %></li>
+        </ul>
+      </div>
+
+      <div class="grid-4 hide-mobile contact-menu">
+        <!-- PHONE DROPDOWN -->
+        <div class="phone-dropdown">
+          <div class="flag-country"></div>
+          <div class="tel">
+            <div class="dropdown">
+              <a href="#"><i class="fa fa-globe"></i> <%= i18 "navegation.lang" %> <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="<%= url(:base, :locale, locale: :en) %>"><%= i18 "navegation.langs.en" %></a></li>
+                <li><a href="<%= url(:base, :locale, locale: :es) %>"><%= i18 "navegation.langs.es" %></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SIGIN LOGIN -->
+        <div class="sigin-button">
+          <a href="http://fluvip.com/users/sign_in" target="_top" ><%= i18 'navegation.login' %></a>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+  
+  <%= yield %>  
+  
+  
+  <footer id="principal-footer">
+    <div class="container">
+      <div class="grid-3 grid-mobile-12">
+        <h4><%= i18 'footer.titles.company' %></h4>
+        <ul class="footer-menu">
+          <li><a href="<%= url(:base, :index) %>"><%= i18 'navegation.home' %></a></li>
+          <li><a href="<%= url(:base, :advertisers) %>"><%= i18 'navegation.advertiser' %></a></li>
+          <li><a href="<%= url(:base, :influenciators) %>"><%= i18 'navegation.influenciator' %></a></li>
+          <li><a href="<%= url(:base, :aboutus) %>"><%= i18 'navegation.weus' %></a></li>
+        </ul>
+
+        <br>
+
+        <h4><%= i18 'footer.titles.legal' %></h4>
+        <ul class="footer-menu">
+          <li><a href="<%= url(:base, :legal) %>"><%= i18 'navegation.terms' %></a></li>
+        </ul>
+      </div>
+
+      <div class="grid-3 grid-mobile-12 social-footer">
+        <h4><%= i18 'footer.titles.followus' %></h4>
+
+        <ul class="footer-menu">
+          <li><a href="<%= url('//blog.fluvip.com') %>" target="_blank"><i class="fa fa-tumblr"></i> Blog</a></li>
+          <li><a href="<%= url('//twitter.com/fluvipcolombia') %>" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+          <li><a href="https://www.facebook.com/fluvip" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+          <!--<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i> Google+</a></li>-->
+          <li><a href="<%= url('http://instagram.com/fluvip') %>" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+          <li><a href="<%= url('https://vine.co/u/1086022698280386560') %>" target="_blank"><i class="fa fa-vine"></i> Vine</a></li>
+          <!--<li><a href="#" target="_blank"><i class="fa fa-youtube"></i> Youtube</a></li>-->
+          <!--<li><a href="#" target="_blank"><i class="fa fa-github"></i> Github</a></li>-->
+        </ul>
+
+      </div>
+
+      <div class="grid-3 grid-mobile-12">
+        <h4><%= i18 'footer.titles.contactus' %></h4>
+
+        <address>
+          <strong><%= i18('footer.contact.usa.text') %></strong><br>
+          <abbr title="Phone">P:</abbr> <%= i18('footer.contact.usa.phone') %> <br>
+          <a href="mailto:usa@fluvip.com"><%= i18('footer.contact.usa.email') %></a>
+        </address>
+
+        <div class="divide"></div>
+
+        <address>
+          <strong><%= i18('footer.contact.colombia.text') %></strong><br>
+          <abbr title="Phone">P:</abbr> <%= i18('footer.contact.colombia.phone') %> <br>
+          <a href="mailto:colombia@fluvip.com"><%= i18('footer.contact.colombia.email') %></a>
+        </address>
+
+        <div class="divide"></div>
+
+        <address>
+          <strong><%= i18('footer.contact.peru.text') %></strong><br>
+          <abbr title="Phone">P:</abbr> <%= i18('footer.contact.peru.phone') %> <br>
+          <a href="mailto:peru@fluvip.com"><%= i18('footer.contact.peru.email') %></a>
+        </address>
+
+        <div class="divide"></div>
+
+        <address>
+          <strong><%= i18('footer.contact.spain.text') %></strong><br>
+          <abbr title="Phone">P:</abbr> <%= i18('footer.contact.spain.phone') %> <br>
+          <a href="mailto:spain@fluvip.com"><%= i18('footer.contact.spain.email') %></a>
+        </address>
+
+        <div class="divide"></div>
+
+        <address>
+          <strong><%= i18('footer.contact.chile.text') %></strong><br>
+          <abbr title="Phone">P:</abbr> <%= i18('footer.contact.chile.phone') %> <br>
+          <a href="mailto:chile@fluvip.com"><%= i18('footer.contact.chile.email') %></a>
+        </address>
+
+
+      </div>
+
+      <div class="grid-3 grid-mobile-12 form-contact">
+        <h4><%= i18 'footer.titles.write' %></h4>
+        <% form_for "contact", url("http://kform.herokuapp.com/f/123456"), method: :post do |f| %>
+            <div class="input">
+              <input type="text" name="name" placeholder="<%= i18('footer.form.name') %>"/>
+            </div>
+            <div class="input">
+              <input type="email" name="email" placeholder="<%= i18('footer.form.email') %>"/>
+            </div>
+            <div class="input">
+              <textarea name="mensaje" cols="20" rows="7" placeholder="<%= i18('footer.form.message') %>"></textarea>
+            </div>
+            <div class="input-submit">
+              <input type="submit"/>
+            </div>
+        <% end %>
+      </div>
+    </div>
+  </footer>
+
+  <%= javascript_include_tag "jquery.min", "fluvip" %>
+  <%= yield_content :javascript %>
+</body>
+</html>
