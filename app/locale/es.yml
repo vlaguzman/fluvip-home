@@ -91,8 +91,8 @@ es:
                  En FLUVIP nos comprometemos a cumplir nuestra promesa para que usted cumpla sus objetivos.
       call:
         content: Hable con un influencer advisor. En FLUVIP esperamos su llamada para acompañarlo en el éxito de su campaña.
-        image: asdas
-        phone: asdas
+        image: ""
+        phone: ""
       clients-advertiser:
         title: Nuestros clientes
         content: Son empresas que piensan en grande, como nosotros.
