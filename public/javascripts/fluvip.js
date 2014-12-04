@@ -1,7 +1,8 @@
+new WOW().init();
+
 $(function() {
     removeit();
     validate_navegation();
-
     $(".fancybox").click(function(){
         $("#fancybox").show("fast");
     });

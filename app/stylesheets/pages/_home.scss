@@ -212,25 +212,11 @@
     margin: 15px 0px 10px 0px;
     text-align: center;
 
-    &:hover {
-      .headshot {
-        -webkit-filter:grayscale(0%);
-        -ms-filter: grayscale(0%);
-        filter: grayscale(0%);
-      }
-    }
     .headshot {
       vertical-align: top;
       margin:auto;
       text-align: center;
       margin-bottom:40px;
-
-      -webkit-filter: grayscale(100%);
-      -webkit-transition: all 0.4s ease-in-out;
-      -moz-transition: all 0.4s ease-in-out;
-      -ms-transition: all 0.4s ease-in-out;
-      -o-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out;
 
       img {
         -webkit-border-radius: 50%; 
@@ -239,7 +225,6 @@
         max-width: 100px;
         margin:auto;
         margin-top:-10px;
-        border:5px solid $white;
         box-shadow:0 0px 2px rgba(0,0,0,0.2);
       }
     }
