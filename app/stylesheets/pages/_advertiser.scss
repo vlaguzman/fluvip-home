@@ -124,3 +124,49 @@
     }
   }
 }
+
+@media only screen and (max-device-width: 480px) {
+  #advertirser-container {
+    .wrapper {
+      padding:0px 0px 100px 0px !important;
+
+      .message {
+        text-align: center;
+        .descrip {
+          font-size:25px !important;
+          line-height:30px !important;
+        }
+
+        span {
+          top:10px !important;
+          font-size:13px !important;
+        }
+      }
+    }
+
+    .btn {
+      margin-top:20px !important;
+      margin-bottom:40px !important;
+    }
+  }
+
+  .validate-advertiser {
+    .content-text {
+      padding-bottom:0px !important;
+    }
+
+    .imagen-top-fancybox {
+      padding:20px 0px !important;
+    }
+  }
+
+  #clients-advertiser {
+    .clients-list {
+      .grid {
+        div {
+          margin-bottom:60px !important;
+        }
+      }
+    }
+  }
+}

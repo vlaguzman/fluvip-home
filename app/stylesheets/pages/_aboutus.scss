@@ -278,3 +278,19 @@
     }
   }
 }
+
+@media only screen and (max-device-width: 480px) {
+  #aboutus {
+    .container {
+      padding-top:60px !important;
+      padding-bottom:30px !important;
+    }
+    .wrapper {
+      padding:0px 0px 100px 0px !important;
+
+      h1 {
+        font-size:27px !important;
+      }
+    }
+  }
+}

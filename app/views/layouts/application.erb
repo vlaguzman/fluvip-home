@@ -10,9 +10,9 @@
   <nav id="principal-nav" class="<%= navegation_bar(@navegation) %>">
     <div class="container">
       <div class="grid-8 menu-items">
-        <a href="/" class="logo grid-2 grid-mobile-12" align=center></a>
+        <a href="/" class="logo grid-2 grid-mobile-10" align=center></a>
+        <a class="show-mobile menu-plegate grid-mobile-2" href="#"><i class="fa fa-th-list"></i></a>
         <ul class="menu-items-list grid-10 hide-mobile">
-          <!--<li><a href="/"><%= i18('navegation.home') %></a></li>-->
           <li><%= link_to(i18('navegation.advertiser'), url(:base, :advertisers)) %></li>
           <li><%= link_to(i18('navegation.influenciator'), url(:base, :influenciators)) %></li>
           <li><%= link_to(i18('navegation.weus'), url(:base, :aboutus)) %></li>

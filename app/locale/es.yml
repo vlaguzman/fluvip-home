@@ -91,10 +91,8 @@ es:
                  En FLUVIP nos comprometemos a cumplir nuestra promesa para que usted cumpla sus objetivos.
       call:
         content: Hable con un influencer advisor. En FLUVIP esperamos su llamada para acompañarlo en el éxito de su campaña.
-        phone:
-          colombia: (+57) 741-1335
-          peru: (+54) 741-1335
-          mexico: (+51) 741-1335
+        image: asdas
+        phone: asdas
       clients-advertiser:
         title: Nuestros clientes
         content: Son empresas que piensan en grande, como nosotros.

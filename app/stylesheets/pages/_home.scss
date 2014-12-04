@@ -313,3 +313,39 @@
     }
   }
 }
+
+
+@media only screen and (max-device-width: 480px) {
+  #principal-home {
+    background-size:cover !important;
+
+    .container {
+      padding-top:60px !important;
+      padding-bottom:30px !important;
+    }
+    .wrapper {
+      padding:0px 0px 100px 0px !important;
+
+      h1 {
+        font-size:27px !important;
+      }
+    }
+
+    .ingressButtons {
+      margin-top:10px !important;
+      .btn {
+        display:block !important;
+        margin:15px auto !important;
+        border-radius:8px !important;
+      }
+      em {
+        display:none !important;
+      }
+    }
+  }
+
+  #clients {
+    display:none;
+  }
+
+}
