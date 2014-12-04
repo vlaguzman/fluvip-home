@@ -212,6 +212,10 @@
     margin: 15px 0px 10px 0px;
     text-align: center;
 
+    &:hover {
+      -webkit-animation-name: zoomIn;
+      animation-name: zoomIn;
+    }
     .headshot {
       vertical-align: top;
       margin:auto;

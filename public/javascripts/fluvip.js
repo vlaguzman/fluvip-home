@@ -1,5 +1,3 @@
-new WOW().init();
-
 $(function() {
     removeit();
     validate_navegation();
@@ -11,6 +9,8 @@ $(function() {
         $("#fancybox").hide("fast");
         location.reload(true);
     });
+    
+
 });
 
 

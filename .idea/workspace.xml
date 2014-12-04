@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efe38909-910e-462d-a87b-17776012d116" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/stylesheets/helpers/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/wow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/video-advertisers.png" afterPath="$PROJECT_DIR$/public/assets/video-advertisers.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/video-influenciator.png" afterPath="$PROJECT_DIR$/public/assets/video-influenciator.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/stylesheets/pages/_aboutus.scss" afterPath="$PROJECT_DIR$/app/stylesheets/pages/_aboutus.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/stylesheets/layout/_header.scss" afterPath="$PROJECT_DIR$/app/stylesheets/layout/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/stylesheets/pages/_home.scss" afterPath="$PROJECT_DIR$/app/stylesheets/pages/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/stylesheets/pages/_influenciator.scss" afterPath="$PROJECT_DIR$/app/stylesheets/pages/_influenciator.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/base/aboutus.erb" afterPath="$PROJECT_DIR$/app/views/base/aboutus.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/base/advertirser.erb" afterPath="$PROJECT_DIR$/app/views/base/advertirser.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/locale/en.yml" afterPath="$PROJECT_DIR$/app/locale/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/locale/es.yml" afterPath="$PROJECT_DIR$/app/locale/es.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/fluvip.css" afterPath="$PROJECT_DIR$/public/stylesheets/fluvip.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/fluvip.js" afterPath="$PROJECT_DIR$/public/javascripts/fluvip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/stylesheets/fluvip.scss" afterPath="$PROJECT_DIR$/app/stylesheets/fluvip.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/base/home.erb" afterPath="$PROJECT_DIR$/app/views/base/home.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/base/influenciators.erb" afterPath="$PROJECT_DIR$/app/views/base/influenciators.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fluvipp.iws" />
@@ -68,41 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutus.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/base/aboutus.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.90123457" vertical-offset="3128" max-vertical-offset="3938">
-              <caret line="109" column="124" selection-start-line="109" selection-start-column="124" selection-end-line="109" selection-end-column="124" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_aboutus.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/stylesheets/pages/_aboutus.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.193548" vertical-offset="3502" max-vertical-offset="6710">
-              <caret line="182" column="50" selection-start-line="182" selection-start-column="50" selection-end-line="182" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_animations.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/stylesheets/helpers/_animations.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="56.064518" vertical-offset="65890" max-vertical-offset="69410">
-              <caret line="2916" column="22" selection-start-line="2916" selection-start-column="11" selection-end-line="2916" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="influenciators.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/base/influenciators.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.935484" vertical-offset="862" max-vertical-offset="1672">
-              <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+            <state vertical-scroll-proportion="-4.2580647" vertical-offset="55616" max-vertical-offset="69410">
+              <caret line="2534" column="2" selection-start-line="2534" selection-start-column="2" selection-end-line="2535" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -111,28 +67,38 @@
       <file leaf-file-name="fluvip.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/fluvip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="946">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="946">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/stylesheets/pages/_home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.451613" vertical-offset="4614" max-vertical-offset="7590">
+              <caret line="216" column="29" selection-start-line="216" selection-start-column="29" selection-end-line="216" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/base/home.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.548387" vertical-offset="1716" max-vertical-offset="3564">
-              <caret line="83" column="77" selection-start-line="83" selection-start-column="77" selection-end-line="83" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.59945506" vertical-offset="2266" max-vertical-offset="3564">
+              <caret line="113" column="67" selection-start-line="113" selection-start-column="67" selection-end-line="113" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wow.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/wow.js">
+      <file leaf-file-name="application.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3251" max-vertical-offset="10142">
-              <caret line="455" column="14" selection-start-line="455" selection-start-column="14" selection-end-line="455" selection-end-column="14" />
+            <state vertical-scroll-proportion="-5.451613" vertical-offset="3065" max-vertical-offset="3432">
+              <caret line="147" column="42" selection-start-line="147" selection-start-column="42" selection-end-line="147" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -162,13 +128,8 @@
         <option value="$PROJECT_DIR$/app/controllers/base.rb" />
         <option value="$PROJECT_DIR$/app/stylesheets/pages/_advertiser.scss" />
         <option value="$PROJECT_DIR$/app/stylesheets/layout/_header.scss" />
-        <option value="$PROJECT_DIR$/app/stylesheets/pages/_home.scss" />
-        <option value="$PROJECT_DIR$/app/stylesheets/helpers/_animations.scss" />
         <option value="$PROJECT_DIR$/app/stylesheets/fluvip.scss" />
         <option value="$PROJECT_DIR$/public/javascripts/wow.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/fluvip.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.erb" />
-        <option value="$PROJECT_DIR$/app/views/base/home.erb" />
         <option value="$PROJECT_DIR$/app/views/base/advertirser.erb" />
         <option value="$PROJECT_DIR$/app/views/base/influenciators.erb" />
         <option value="$PROJECT_DIR$/app/locale/es.yml" />
@@ -176,6 +137,11 @@
         <option value="$PROJECT_DIR$/app/stylesheets/pages/_influenciator.scss" />
         <option value="$PROJECT_DIR$/app/stylesheets/pages/_aboutus.scss" />
         <option value="$PROJECT_DIR$/app/views/base/aboutus.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.erb" />
+        <option value="$PROJECT_DIR$/public/javascripts/fluvip.js" />
+        <option value="$PROJECT_DIR$/app/stylesheets/helpers/_animations.scss" />
+        <option value="$PROJECT_DIR$/app/stylesheets/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/app/views/base/home.erb" />
       </list>
     </option>
   </component>
@@ -519,7 +485,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50978136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50978136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -725,74 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/stylesheets/pages/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.419354" vertical-offset="4350" max-vertical-offset="7502">
-          <caret line="211" column="30" selection-start-line="211" selection-start-column="29" selection-end-line="211" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/stylesheets/helpers/_animations.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="56.064518" vertical-offset="65890" max-vertical-offset="69410">
-          <caret line="2916" column="22" selection-start-line="2916" selection-start-column="11" selection-end-line="2916" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/wow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3251" max-vertical-offset="10142">
-          <caret line="455" column="14" selection-start-line="455" selection-start-column="14" selection-end-line="455" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.741936" vertical-offset="2622" max-vertical-offset="3432">
-          <caret line="147" column="49" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/fluvip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="946">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/base/home.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.548387" vertical-offset="1716" max-vertical-offset="3564">
-          <caret line="83" column="77" selection-start-line="83" selection-start-column="77" selection-end-line="83" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/locale/es.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1623" max-vertical-offset="2948">
-          <caret line="104" column="62" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/locale/en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1958" max-vertical-offset="2948">
           <caret line="104" column="70" selection-start-line="104" selection-start-column="70" selection-end-line="104" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/stylesheets/pages/_influenciator.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.612903" vertical-offset="1590" max-vertical-offset="4180">
-          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -805,26 +707,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/base/influenciators.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/base/aboutus.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.935484" vertical-offset="862" max-vertical-offset="1672">
-          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.16893733" vertical-offset="3216" max-vertical-offset="3938">
+          <caret line="149" column="29" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/stylesheets/pages/_aboutus.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.193548" vertical-offset="3502" max-vertical-offset="6710">
+        <state vertical-scroll-proportion="1.3678474" vertical-offset="3502" max-vertical-offset="6710">
           <caret line="182" column="50" selection-start-line="182" selection-start-column="50" selection-end-line="182" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/base/aboutus.erb">
+    <entry file="file://$PROJECT_DIR$/app/locale/es.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.90123457" vertical-offset="3128" max-vertical-offset="3938">
-          <caret line="109" column="124" selection-start-line="109" selection-start-column="124" selection-end-line="109" selection-end-column="124" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1623" max-vertical-offset="2948">
+          <caret line="104" column="62" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/wow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3251" max-vertical-offset="10142">
+          <caret line="455" column="14" selection-start-line="455" selection-start-column="14" selection-end-line="455" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/stylesheets/pages/_influenciator.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.612903" vertical-offset="1590" max-vertical-offset="4180">
+          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.451613" vertical-offset="3065" max-vertical-offset="3432">
+          <caret line="147" column="42" selection-start-line="147" selection-start-column="42" selection-end-line="147" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/fluvip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="946">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/stylesheets/pages/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.451613" vertical-offset="4614" max-vertical-offset="7590">
+          <caret line="216" column="29" selection-start-line="216" selection-start-column="29" selection-end-line="216" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/base/influenciators.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0899183" vertical-offset="1016" max-vertical-offset="1672">
+          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/stylesheets/helpers/_animations.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2580647" vertical-offset="55616" max-vertical-offset="69410">
+          <caret line="2534" column="2" selection-start-line="2534" selection-start-column="2" selection-end-line="2535" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/base/home.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59945506" vertical-offset="2266" max-vertical-offset="3564">
+          <caret line="113" column="67" selection-start-line="113" selection-start-column="67" selection-end-line="113" selection-end-column="67" />
           <folding />
         </state>
       </provider>
