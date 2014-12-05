@@ -137,13 +137,37 @@
   <div class="container">
     
     <div class="grid-6 hide-mobile image-top right">
-      <img src="/assets/page-product-what-3.png" style="width:80%;">
+      <div class="tabs images">
+        <div class="tab identify">
+          <img src="/assets/tabs/identify.png" style="width:80%;">
+        </div>
+        <div class="tab publish hide">
+          <img src="/assets/tabs/publish.png" style="width:80%;">
+        </div>
+        <div class="tab monitoring hide">
+          <img src="/assets/tabs/monitoring.png" style="width:80%;">
+        </div>
+      </div>
+
     </div>
 
     <div class="grid-6 grid-mobile-12 content-text left">
       <h1><%= i18("pages.home.how.title") %></h1>
 
-      <p><%= i18("pages.home.how.content") %></p>
+      <div class="tabs">
+        <div class="tab identify">
+          <%= i18 "pages.home.how.tabs.tabs-content.identify" %>
+        </div>
+        <div class="tab publish hide">
+          <%= i18 "pages.home.how.tabs.tabs-content.publish" %>
+        </div>
+        <div class="tab monitoring hide">
+          <%= i18 "pages.home.how.tabs.tabs-content.monitoring" %>
+        </div>
+      </div>
+      <ul class="tabs-buttons">
+        <li><a id="identify" class="radius-left active-tab-button" href="#"><i class="fa fa-users"></i> <%= i18 "pages.home.how.tabs.tabs-buttons.identify" %></a></li><li><a id="publish" href="#"><i class="fa fa-share-alt"></i> <%= i18 "pages.home.how.tabs.tabs-buttons.publish" %></a></li><li><a id="monitoring" href="#"  class="radius-right"><i class="fa fa-area-chart"></i> <%= i18 "pages.home.how.tabs.tabs-buttons.monitoring" %></a></li>
+      </ul>
 
       <div class="divider-lg"></div>
 

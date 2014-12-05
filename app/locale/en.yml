@@ -11,7 +11,7 @@ en:
     lang: language
     langs:
       en: English
-      es: Spanish
+      es: Español
   footer:
     titles:
       company: company
@@ -73,7 +73,15 @@ en:
             content: '<quote>"We optimize campaigns in real time and we generate quality content and positive feeling".</quote><small>Sales Manager</small>'
       how:
         title: How it works?
-        content: <ul class='listdata'> <li><i class='fa fa-users'></i> <strong>Identify</strong> Influencers suitable for your campaign.</li> <li><i class='fa fa-share-alt'></i> <strong>Publish</strong> your content across multiple channels.</li> <li><i class='fa fa-area-chart'></i> Real-time <strong>monitoring</strong> and optimization of campaigns.</li> </ul>
+        tabs:
+          tabs-buttons:
+            identify: Identify
+            publish: Publish
+            monitoring: Monitoring
+          tabs-content:
+            identify: <strong>Identify</strong> influencers suitable for your campaign
+            publish: <strong>Publish</strong> your content across multiple channels.
+            monitoring: Real-time <strong>monitoring</strong> and optimization of campaigns.
         footer: <strong>Learn more about our services for</strong>  <a href="/advertisers" class="more">brands.</a>
     advertiser:
       advertiser_container:
@@ -108,7 +116,15 @@ en:
         list: In FLUVIP you earn money with your social networks by sharing your experiences from your friends and followers , talking about products and services that you really like.
       how:
         title: How it works?
-        content: "<ul class=listdata> <li><i class='fa fa-user'></i> <strong>Signup</strong> free in FLUVIP</li> <li><i class='fa fa-clock-o'></i> <strong>Expects</strong> to receive proposals brands</li> <li><i class='fa fa-share-alt'></i> <strong>Publishes</strong> content and get your paid</li> </ul>"
+        tabs:
+          tabs-buttons:
+            signup: Signup
+            expects: Expects
+            publishes: Publishes
+          tabs-content:
+            signup: <strong>Signup</strong> free in FLUVIP.
+            expects: <strong>Expects</strong> to receive proposals brands.
+            publishes: <strong>Publishes</strong> content and get your paid.
     aboutus:
       title: '"Talent wins games, but teamwork and intelligence wins championships".'
       span: Michael Jordan

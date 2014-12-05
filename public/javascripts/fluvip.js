@@ -9,7 +9,15 @@ $(function() {
         $("#fancybox").hide("fast");
         location.reload(true);
     });
-    
+
+    $(".tabs-buttons a").click(function(e){
+        e.preventDefault();
+        $(".tabs-buttons a").removeClass("active-tab-button");
+        $(this).addClass("active-tab-button");
+        var actual = $(this).attr("id");
+        $("." + actual).show();
+        $(".tab").not("." + actual).hide();
+    });
 
 });
 

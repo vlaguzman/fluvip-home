@@ -10,7 +10,7 @@ es:
     login: ingresa
     lang: idioma
     langs:
-      en: Ingles
+      en: English
       es: Español
   footer:
     titles:
@@ -73,7 +73,15 @@ es:
             content: '<quote>"Optimizamos las campañas en tiempo real y logramos generar contenido de calidad y sentimiento positivo".</quote><small>Director de cuentas</small>'
       how:
         title: ¿Cómo funciona?
-        content: <ul class='listdata'> <li><i class='fa fa-users'></i> <strong>Identifique</strong> los Influenciadores adecuados para su campaña.</li> <li><i class='fa fa-share-alt'></i> <strong>Publique</strong> su contenido en múltiples canales.</li> <li><i class='fa fa-area-chart'></i> <strong>Monitoreo</strong> en tiempo real y optimización de las campañas.</li> </ul>
+        tabs:
+          tabs-buttons:
+            identify: Identifique
+            publish: Publique
+            monitoring: Monitoreo
+          tabs-content:
+            identify: <strong>Identifique</strong> los Influenciadores adecuados para su campaña.
+            publish: <strong>Publique</strong> su contenido en múltiples canales.
+            monitoring: <strong>Monitoreo</strong> en tiempo real y optimización de las campañas.
         footer: <strong>Conoce más de nuestros servicios para las</strong>  <a href="/advertisers" class="more">marcas.</a>
     advertiser:
       advertiser_container:
@@ -109,6 +117,15 @@ es:
       how:
         title: Como funciona
         content: "<ul class=listdata> <li><i class='fa fa-user'></i> <strong>Regístrate</strong> gratis en FLUVIP</li> <li><i class='fa fa-clock-o'></i> <strong>Espera</strong> a recibir propuestas de las marcas</li> <li><i class='fa fa-share-alt'></i> <strong>Publica</strong> el contenido y recibes dinero</li> </ul>"
+        tabs:
+          tabs-buttons:
+            signup: Regístrate
+            expects: Espera
+            publishes: Publica
+          tabs-content:
+            signup: <strong>Regístrate</strong> gratis en FLUVIP
+            expects: <strong>Espera</strong> a recibir propuestas de las marcas
+            publishes: <strong>Publica</strong> el contenido y recibes dinero
     aboutus:
       title: '"El talento gana partidos, pero el trabajo en equipo y la inteligencia ganan campeonatos".'
       span: Michael Jordan

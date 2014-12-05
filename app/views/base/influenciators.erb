@@ -55,10 +55,33 @@
     <div class="container">
       <div class="grid-6 grid-mobile-12 content-text">
         <h1><%= i18 "pages.influenciator.how.title" %></h1>
-        <p><%= i18 "pages.influenciator.how.content" %></p>
+        <div class="tabs">
+          <div class="tab signup">
+            <%= i18 "pages.influenciator.how.tabs.tabs-content.signup" %>
+          </div>
+          <div class="tab expects hide">
+            <%= i18 "pages.influenciator.how.tabs.tabs-content.expects" %>
+          </div>
+          <div class="tab publishes hide">
+            <%= i18 "pages.influenciator.how.tabs.tabs-content.publishes" %>
+          </div>
+        </div>
+        <ul class="tabs-buttons">
+          <li><a id="signup" class="radius-left active-tab-button" href="#"><i class="fa fa-user"></i> <%= i18 "pages.influenciator.how.tabs.tabs-buttons.signup" %></a></li><li><a id="expects" href="#"><i class="fa fa-clock-o"></i> <%= i18 "pages.influenciator.how.tabs.tabs-buttons.expects" %></a></li><li><a id="publishes" href="#"  class="radius-right"><i class="fa fa-share-alt"></i> <%= i18 "pages.influenciator.how.tabs.tabs-buttons.publishes" %></a></li>
+        </ul>
       </div>
       <div class="grid-6 hide-mobile image-top right">
-        <img src="/assets/page-product-what-3.png" style="width:80%;">
+        <div class="tabs images">
+          <div class="tab signup">
+            <img src="/assets/tabs/identify.png" style="width:80%;">
+          </div>
+          <div class="tab expects hide">
+            <img src="/assets/tabs/publish.png" style="width:80%;">
+          </div>
+          <div class="tab publishes hide">
+            <img src="/assets/tabs/monitoring.png" style="width:80%;">
+          </div>
+        </div>
       </div>
 
     </div>
