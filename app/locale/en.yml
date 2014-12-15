@@ -82,7 +82,7 @@ en:
             identify: <strong>Identify</strong> influencers suitable for your campaign
             publish: <strong>Publish</strong> your content across multiple channels.
             monitoring: Real-time <strong>monitoring</strong> and optimization of campaigns.
-        footer: <strong>Learn more about our services for</strong>  <a href="/advertisers" class="more">brands.</a>
+        footer: <strong>Learn more about our services for</strong>  <a href="/advertisers" class="more">brands</a>
     advertiser:
       advertiser_container:
         descrip: 'FLUVIP allows you to identify the right influencer for your campaign, publish content to multiple social networks and measure your success in real time'
@@ -99,7 +99,6 @@ en:
                  In FLUVIP commit to fulfill our promise to you reach your goals.
       call:
         content: Talk to an influencer advisor. In FLUVIP expect your call to join you in the success of your campaign.
-        image: https://s3.amazonaws.com/uifaces/faces/twitter/chloepark/128.jpg
         phone: (+1) 786 681 2966
       clients-advertiser:
         title: Our customers
