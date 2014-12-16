@@ -45,6 +45,7 @@ es:
       email: Correo electronico
       message: Mensaje
   pages:
+    seevideo: Ver video
     home:
       principal-home:
         title: La mejor manera de generar impacto creando y compartiendo contenido de calidad

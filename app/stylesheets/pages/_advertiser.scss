@@ -68,13 +68,22 @@
 }
 
 #validate {
-  .video {
-    padding-top:120px; 
-    padding-bottom:160px;
-    iframe {
+  padding:110px 0px;
 
+  .content-data {
+    h1 {
+      font-size:4em;
+      color:#4F5962 !important;
+      margin-bottom:50px !important;
     }
+
+    h4 {
+      color:darken($gray, 8%) !important;
+    }
+
   }
+
+
 }
 
 #clients-advertiser {
