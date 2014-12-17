@@ -114,6 +114,32 @@ en:
       validate:
         title: Make money with yours social networks <small> Value ​​the power of influence!</small>
         list: In FLUVIP you earn money with your social networks by sharing your experiences from your friends and followers , talking about products and services that you really like.
+      influenciators:
+        texts:
+          tweets: Tweets
+          following: Following
+          followers: Followers
+        box_1:
+          twitter_account: MALUMACOLOMBIA
+          image: https://pbs.twimg.com/profile_images/537815836183252992/e5ejqeYd.jpeg
+          description: PARA CONTRATACIONES E INFORMACION contacto@malumamusik.com
+          tweets: "13,4K"
+          following: "175"
+          followers: "1,58M"
+        box_2:
+          twitter_account: sabiasundato_o
+          image: https://pbs.twimg.com/profile_images/378800000802935865/747de1f3bab011caa8cb714d9782a61a.jpeg
+          description: Eres curioso? aquí podrás descubrir las cosas más curiosas de la internet ...
+          tweets: "149K"
+          following: "44"
+          followers: "1,65M"
+        box_3:
+          twitter_account: jonsecada
+          image: https://pbs.twimg.com/profile_images/495722598739636224/h8totelY.jpeg
+          description: Grammy-award winning singer/songwriter.
+          tweets: "2.773"
+          following: "420"
+          followers: "851K"
       how:
         title: How it works?
         tabs:

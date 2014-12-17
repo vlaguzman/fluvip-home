@@ -208,25 +208,87 @@
     margin-bottom:45px !important;
   }
 
+  .influenciator-account {
+
+    &:hover {
+      .avatar { background-size: 120%; }
+
+
+    }
+
+    .avatar {
+      box-shadow:0 0px 2px rgba(0,0,0,0.2);
+      border:2px solid #fff;
+      height:100px;
+      width:100px;
+      border-radius:100%;
+      margin:20px auto;
+      background-size:100%;
+      background-position: center;
+
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .twitter-account {
+      font-size:18px;
+
+      &:hover {
+        color:darken($siginbutton, 10%);
+      }
+    }
+
+    .twitter-description {
+      margin:10px auto;
+      width:70%;
+      text-transform: lowercase;
+      min-height: 70px;
+    }
+
+    .twitter-details {
+      margin:30px auto 20px;
+      width:70%;
+
+      & > div {
+        font-size:14px;
+        color:$siginbutton;
+
+        .data {
+          font-size:16px;
+          color:darken($gray, 20%);
+          font-weight: bold;
+          margin-bottom:5px;
+        }
+      }
+    }
+  }
   .client-testimonial {
     margin: 15px 0px 10px 0px;
     text-align: center;
 
-    .headshot {
-      vertical-align: top;
-      margin:auto;
-      text-align: center;
-      margin-bottom:40px;
-
-      img {
-        -webkit-border-radius: 50%; 
-        border-radius: 50%; 
-        width:100%;
-        max-width: 100px;
-        margin:auto;
-        margin-top:-10px;
-        box-shadow:0 0px 2px rgba(0,0,0,0.2);
+    &:hover {
+      .avatar {
+        background-size:120%;
       }
+    }
+    .avatar {
+      box-shadow:0 0px 2px rgba(0,0,0,0.2);
+      border:2px solid #fff;
+      height:100px;
+      width:100px;
+      border-radius:100%;
+      margin:20px auto 40px;
+      background-size:100%;
+      background-position: center;
+
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
     }
 
     .quote {

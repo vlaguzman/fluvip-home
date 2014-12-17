@@ -8,7 +8,7 @@ Fluvipp::App.controllers :base, map: '/' do
     render "base/advertirser"
   end
 
-  get :influenciators do 
+  get :influenciators do
     render "base/influenciators"
   end
 

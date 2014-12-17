@@ -114,6 +114,32 @@ es:
       validate:
         title: Monetiza tus Redes Sociales <small>¡Haz valer tu poder de influencia!</small>
         list: En FLUVIP ganas dinero con tus Redes Sociales compartiendo tus experiencias entre tus amigos y seguidores, conversando sobre los productos y servicios que realmente te gustan.
+      influenciators:
+        texts:
+          tweets: Tweets
+          following: Siguiendo
+          followers: Seguidores
+        box_1:
+          twitter_account: MALUMACOLOMBIA
+          image: https://pbs.twimg.com/profile_images/537815836183252992/e5ejqeYd.jpeg
+          description: PARA CONTRATACIONES E INFORMACION contacto@malumamusik.com
+          tweets: "13,4K"
+          following: "175"
+          followers: "1,58M"
+        box_2:
+          twitter_account: Laura_AcunaRCN
+          image: https://pbs.twimg.com/profile_images/533443952352174080/u69DwmHt.jpeg
+          description: Presentadora de Television y Empresaria/ Bogotà-Colombia
+          tweets: "24,3K"
+          following: "491"
+          followers: "1,24M"
+        box_3:
+          twitter_account: SantiCruz
+          image: https://pbs.twimg.com/profile_images/516599221555056641/hICj59g3.jpeg
+          description: Compositor y cantante colombiano. Embajador de Buena Voluntad de Naciones Unidas.
+          tweets: "27,7K"
+          following: "371"
+          followers: "1,26M"
       how:
         title: Como funciona
         content: "<ul class=listdata> <li><i class='fa fa-user'></i> <strong>Regístrate</strong> gratis en FLUVIP</li> <li><i class='fa fa-clock-o'></i> <strong>Espera</strong> a recibir propuestas de las marcas</li> <li><i class='fa fa-share-alt'></i> <strong>Publica</strong> el contenido y recibes dinero</li> </ul>"
