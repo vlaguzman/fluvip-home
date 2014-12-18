@@ -187,7 +187,7 @@
   
 
   .image-top {
-    padding:120px 0px;
+    padding:130px 0px 120px 0px;
     padding-left:30px;
     box-sizing: border-box;
     text-align: center;
@@ -271,7 +271,7 @@
 
     &:hover {
       .avatar {
-        background-size:120%;
+        background-size:140%;
       }
     }
     .avatar {
@@ -284,11 +284,11 @@
       background-size:100%;
       background-position: center;
 
-      -webkit-transition: all 0.5s ease-in-out;
-      -moz-transition: all 0.5s ease-in-out;
-      -ms-transition: all 0.5s ease-in-out;
-      -o-transition: all 0.5s ease-in-out;
-      transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
     }
 
     .quote {
