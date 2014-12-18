@@ -209,29 +209,25 @@
   }
 
   .influenciator-account {
-
-    &:hover {
-      .avatar { background-size: 120%; }
-
-
-    }
+    text-align: center;
 
     .avatar {
-      box-shadow:0 0px 2px rgba(0,0,0,0.2);
-      border:2px solid #fff;
-      height:100px;
-      width:100px;
-      border-radius:100%;
+      box-shadow:0 0px 2px rgba(0,0,0,0.1);
+      border:4px solid #fff;
+      max-width:90%;
+      height:250px;
+      width:300px;
       margin:20px auto;
       background-size:100%;
       background-position: center;
-
+      background-color: $white;
       -webkit-transition: all 0.5s ease-in-out;
       -moz-transition: all 0.5s ease-in-out;
       -ms-transition: all 0.5s ease-in-out;
       -o-transition: all 0.5s ease-in-out;
       transition: all 0.5s ease-in-out;
     }
+
 
     .twitter-account {
       font-size:18px;
@@ -250,9 +246,11 @@
 
     .twitter-details {
       margin:30px auto 20px;
-      width:70%;
+      width:300px;
+      max-width:90%;
 
       & > div {
+        text-align: center;
         font-size:14px;
         color:$siginbutton;
 
@@ -261,6 +259,8 @@
           color:darken($gray, 20%);
           font-weight: bold;
           margin-bottom:5px;
+          display: block;
+          width: 100%;
         }
       }
     }
