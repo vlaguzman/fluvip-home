@@ -110,7 +110,7 @@ es:
         button:
           text: "Crea gratis tu cuenta como #influenciador"
       map:
-        title: "<span class='morebig'>+20.000 #influenciadores</span> <br> <small>Latinoamérica + USA + España</small>"
+        title: "<span class='morebig'>+20.000 #influenciadores</span> <small>Latinoamérica + USA + España</small>"
       validate:
         title: Monetiza tus Redes Sociales <br> <small>¡Haz valer tu poder de influencia!</small>
         list: En FLUVIP ganas dinero con tus Redes Sociales compartiendo tus experiencias entre tus amigos y seguidores, conversando sobre los productos y servicios que realmente te gustan.
@@ -120,24 +120,24 @@ es:
           following: Siguiendo
           followers: Seguidores
         box_1:
-          twitter_account: MALUMACOLOMBIA
-          image: https://pbs.twimg.com/profile_images/537815836183252992/e5ejqeYd.jpeg
+          twitter_account: Maluma
+          image: http://upload.wikimedia.org/wikipedia/commons/8/88/Maluma_Premios_Juventud.jpg
           description: PARA CONTRATACIONES E INFORMACION contacto@malumamusik.com
-          tweets: "13,4K"
+          tweets: "1,8M"
           following: "175"
           followers: "1,58M"
         box_2:
-          twitter_account: Laura_AcunaRCN
+          twitter_account: Laura Acuña
           image: https://pbs.twimg.com/profile_images/533443952352174080/u69DwmHt.jpeg
           description: Presentadora de Television y Empresaria/ Bogotà-Colombia
-          tweets: "24,3K"
+          tweets: "324K"
           following: "491"
           followers: "1,24M"
         box_3:
-          twitter_account: SantiCruz
-          image: https://pbs.twimg.com/profile_images/516599221555056641/hICj59g3.jpeg
+          twitter_account: Santiago Cruz
+          image: http://www.eluniversal.com.co/sites/default/files/20centrales1_2.jpg
           description: Compositor y cantante colombiano. Embajador de Buena Voluntad de Naciones Unidas.
-          tweets: "27,7K"
+          tweets: "136K"
           following: "371"
           followers: "1,26M"
       how:

@@ -111,6 +111,30 @@
   }
 }
 
+.validate-influenciator {
+  .social-brands {
+    margin-top:50px;
+    i {
+      color:darken($gray,10%);
+      margin:15px;
+      font-size:25px;
+
+    }
+  }
+}
+#clients-about {
+  padding:100px 0px;
+  h1 {
+    font-size:50px;
+    color:darken($gray,20%);
+    small {
+      display:block;
+      font-size:35px;
+      margin-top:-15px;
+    }
+  }
+}
+
 @media only screen and (max-device-width: 480px) {
   #influenciator-container {
     .wrapper {

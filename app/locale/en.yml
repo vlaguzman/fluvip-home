@@ -110,7 +110,7 @@ en:
         button:
           text: "Create your account like #influencer, is free"
       map:
-        title: "<span class='morebig'>+20.000 #influenciadores</span> <br> <small>LATAM + USA + Spain</small>"
+        title: "<span class='morebig'>+20.000 #influenciadores</span> <small>LATAM + USA + Spain</small>"
       validate:
         title: Make money with yours social networks <br><small> Value ​​the power of influence!</small>
         list: In FLUVIP you earn money with your social networks by sharing your experiences from your friends and followers , talking about products and services that you really like.
@@ -120,24 +120,24 @@ en:
           following: Following
           followers: Followers
         box_1:
-          twitter_account: MALUMACOLOMBIA
+          twitter_account: Maluma
           image: https://pbs.twimg.com/profile_images/537815836183252992/e5ejqeYd.jpeg
           description: PARA CONTRATACIONES E INFORMACION contacto@malumamusik.com
           tweets: "13,4K"
           following: "175"
           followers: "1,58M"
         box_2:
-          twitter_account: sabiasundato_o
+          twitter_account: Sabiasundato
           image: https://pbs.twimg.com/profile_images/378800000802935865/747de1f3bab011caa8cb714d9782a61a.jpeg
           description: Eres curioso? aquí podrás descubrir las cosas más curiosas de la internet ...
-          tweets: "149K"
+          tweets: "8.6K"
           following: "44"
           followers: "1,65M"
         box_3:
-          twitter_account: jonsecada
+          twitter_account: Jon Secada
           image: https://pbs.twimg.com/profile_images/495722598739636224/h8totelY.jpeg
           description: Grammy-award winning singer/songwriter.
-          tweets: "2.773"
+          tweets: "3.4K"
           following: "420"
           followers: "851K"
       how:

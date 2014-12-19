@@ -4,7 +4,6 @@
       <div class="wrapper"> 
         <div class="grid-6 grid-mobile-12 message">
           <p class="descrip"><%= i18 "pages.influenciator.influenciator-container.descrip" %></p>
-  
 
           <a href="http://fluvip.com/users/sign_up_redesign" target="_top" class="btn">
             <%= i18 "pages.influenciator.influenciator-container.button.text" %>
@@ -27,6 +26,20 @@
       <div class="grid-8 grid-mobile-12 content-data">
         <h1><%= i18 "pages.influenciator.validate.title" %></h1>
         <h4><%= i18 "pages.influenciator.validate.list" %></h4>
+
+        <div class="social-brands">
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-youtube"></i>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-foursquare"></i>
+          <i class="fa fa-google-plus"></i>
+          <i class="fa fa-linkedin"></i>
+          <i class="fa fa-pinterest"></i>
+          <i class="fa fa-tumblr"></i>
+          <i class="fa fa-vine"></i>
+          <i class="fa fa-wordpress"></i>
+        </div>
       </div>
       <div class="grid-2 hide-mobile"></div>
 
@@ -35,7 +48,7 @@
 </section>
 
 
-<section id="map" class="light">
+<!--<section id="map" class="light">
   <div class="border-rlight">
     <div class="container">
       <div class="grid">
@@ -45,6 +58,95 @@
 
       </div>
     </div>
+  </div>
+</section>-->
+
+<section id="clients-about" class="section light" align="center">
+  <div class="container">
+    <h1 class=""><%= i18 "pages.influenciator.map.title" %></h1>
+    <div class="row">
+      <div class="grid-4 grid-mobile-12 influenciator-account">
+        <div class="row">
+          <div class="avatar" style="background-image:url('<%= i18 "pages.influenciator.influenciators.box_1.image" %>');">
+
+          </div>
+          <div class="info">
+            <a href="#" class="twitter-account"><%= i18 "pages.influenciator.influenciators.box_1.twitter_account" %></a>
+            <div class="row twitter-details">
+
+              <div class="grid-6 grid-mobile-12 twitter-data">
+                <i class="fa fa-twitter"></i>
+                <div class="data"><%= i18 "pages.influenciator.influenciators.box_1.followers" %></div>
+                <%= i18 "pages.influenciator.influenciators.texts.followers" %>
+              </div>
+              <div class="grid-6 grid-mobile-12 instagram-data">
+                <i class="fa fa-instagram"></i>
+                <div class="data"><%= i18 "pages.influenciator.influenciators.box_1.tweets" %></div>
+                <%= i18 "pages.influenciator.influenciators.texts.followers" %>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="grid-4 grid-mobile-12 influenciator-account">
+        <div class="row">
+          <div class="avatar" style="background-image:url('<%= i18 "pages.influenciator.influenciators.box_2.image" %>');">
+
+          </div>
+          <div class="info">
+            <a href="#" class="twitter-account"><%= i18 "pages.influenciator.influenciators.box_2.twitter_account" %></a>
+            <div class="row twitter-details">
+
+              <div class="grid-6 grid-mobile-12 twitter-data">
+                <i class="fa fa-twitter"></i>
+                <div class="data"><%= i18 "pages.influenciator.influenciators.box_2.followers" %></div>
+                <%= i18 "pages.influenciator.influenciators.texts.followers" %>
+              </div>
+              <div class="grid-6 grid-mobile-12 instagram-data">
+                <i class="fa fa-instagram"></i>
+                <div class="data"><%= i18 "pages.influenciator.influenciators.box_2.tweets" %></div>
+                <%= i18 "pages.influenciator.influenciators.texts.followers" %>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="grid-4 grid-mobile-12 influenciator-account">
+        <div class="row">
+          <div class="avatar" style="background-image:url('<%= i18 "pages.influenciator.influenciators.box_3.image" %>');">
+
+          </div>
+          <div class="info">
+            <a href="#" class="twitter-account"> <%= i18 "pages.influenciator.influenciators.box_3.twitter_account" %></a>
+            <div class="row twitter-details">
+
+              <div class="grid-6 grid-mobile-12 twitter-data">
+                <i class="fa fa-twitter"></i>
+                <div class="data"><%= i18 "pages.influenciator.influenciators.box_3.followers" %></div>
+                <%= i18 "pages.influenciator.influenciators.texts.followers" %>
+              </div>
+              <div class="grid-6 grid-mobile-12 instagram-data">
+                <i class="fa fa-instagram"></i>
+                <div class="data"><%= i18 "pages.influenciator.influenciators.box_3.tweets" %></div>
+                <%= i18 "pages.influenciator.influenciators.texts.followers" %>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="space-hero"></div>
+
   </div>
 </section>
 
@@ -83,96 +185,6 @@
       </div>
 
     </div>
-  </div>
-</section>
-
-<section id="clients-about" class="section light" align="center">
-  <div class="container">
-    <br/>
-    <div class="row">
-      <div class="grid-4 grid-mobile-12 influenciator-account">
-        <div class="row">
-          <div class="avatar" style="background-image:url('<%= i18 "pages.influenciator.influenciators.box_1.image" %>');">
-
-          </div>
-          <div class="info">
-            <a href="http://twitter.com/<%= i18 "pages.influenciator.influenciators.box_1.twitter_account" %>" target="_blank" class="twitter-account"><i class="fa fa-twitter"></i> <%= i18 "pages.influenciator.influenciators.box_1.twitter_account" %></a>
-            <div class="row twitter-details">
-              <div class="grid-4 grid-mobile-12">
-                <div class="data"><%= i18 "pages.influenciator.influenciators.box_1.tweets" %></div>
-                <%= i18 "pages.influenciator.influenciators.texts.tweets" %>
-              </div>
-              <div class="grid-4 grid-mobile-12">
-                <div class="data"><%= i18 "pages.influenciator.influenciators.box_1.following" %></div>
-                <%= i18 "pages.influenciator.influenciators.texts.following" %>
-              </div>
-              <div class="grid-4 grid-mobile-12">
-                <div class="data"><%= i18 "pages.influenciator.influenciators.box_1.followers" %></div>
-                <%= i18 "pages.influenciator.influenciators.texts.followers" %>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="grid-4 grid-mobile-12 influenciator-account">
-        <div class="row">
-          <div class="avatar" style="background-image:url('<%= i18 "pages.influenciator.influenciators.box_2.image" %>');">
-
-          </div>
-          <div class="info">
-            <a href="http://twitter.com/<%= i18 "pages.influenciator.influenciators.box_2.twitter_account" %>" target="_blank" class="twitter-account"><i class="fa fa-twitter"></i> <%= i18 "pages.influenciator.influenciators.box_2.twitter_account" %></a>
-            <div class="row twitter-details">
-              <div class="grid-4 grid-mobile-12">
-                <div class="data"><%= i18 "pages.influenciator.influenciators.box_2.tweets" %></div>
-                <%= i18 "pages.influenciator.influenciators.texts.tweets" %>
-              </div>
-              <div class="grid-4 grid-mobile-12">
-                <div class="data"><%= i18 "pages.influenciator.influenciators.box_2.following" %></div>
-                <%= i18 "pages.influenciator.influenciators.texts.following" %>
-              </div>
-              <div class="grid-4 grid-mobile-12">
-                <div class="data"><%= i18 "pages.influenciator.influenciators.box_2.followers" %></div>
-                <%= i18 "pages.influenciator.influenciators.texts.followers" %>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="grid-4 grid-mobile-12 influenciator-account">
-        <div class="row">
-          <div class="avatar" style="background-image:url('<%= i18 "pages.influenciator.influenciators.box_3.image" %>');">
-
-          </div>
-          <div class="info">
-            <a href="http://twitter.com/<%= i18 "pages.influenciator.influenciators.box_3.twitter_account" %>" target="_blank" class="twitter-account"><i class="fa fa-twitter"></i> <%= i18 "pages.influenciator.influenciators.box_3.twitter_account" %></a>
-            <div class="row twitter-details">
-              <div class="grid-4 grid-mobile-12">
-                <div class="data"><%= i18 "pages.influenciator.influenciators.box_3.tweets" %></div>
-                <%= i18 "pages.influenciator.influenciators.texts.tweets" %>
-              </div>
-              <div class="grid-4 grid-mobile-12">
-                <div class="data"><%= i18 "pages.influenciator.influenciators.box_3.following" %></div>
-                <%= i18 "pages.influenciator.influenciators.texts.following" %>
-              </div>
-              <div class="grid-4 grid-mobile-12">
-                <div class="data"><%= i18 "pages.influenciator.influenciators.box_3.followers" %></div>
-                <%= i18 "pages.influenciator.influenciators.texts.followers" %>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-
-
-    </div>
-    <div class="space-hero"></div>
-
   </div>
 </section>
 
