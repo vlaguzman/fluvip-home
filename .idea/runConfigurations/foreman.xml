@@ -19,7 +19,9 @@
     <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="foreman" />
     <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="start -c" />
     <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="start -c" />
+    <RunnerSettings RunnerId="RubyDebugRunner" />
     <RunnerSettings RunnerId="RubyRunner" />
+    <ConfigurationWrapper RunnerId="RubyDebugRunner" />
     <ConfigurationWrapper RunnerId="RubyRunner" />
     <method />
   </configuration>

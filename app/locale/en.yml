@@ -111,6 +111,9 @@ en:
           text: "Create your account like #influencer, is free"
       map:
         title: "<span class='morebig'>+20.000 #influenciadores</span> <small>LATAM + USA + Spain</small>"
+        calltoaction:
+          text: Begin today to monetize your social networks!
+          button: Register your account
       validate:
         title: Make money with yours social networks <br><small> Value ​​the power of influence!</small>
         list: In FLUVIP you earn money with your social networks by sharing your experiences from your friends and followers , talking about products and services that you really like.

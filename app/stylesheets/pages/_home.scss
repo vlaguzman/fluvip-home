@@ -187,7 +187,7 @@
   
 
   .image-top {
-    padding:130px 0px 120px 0px;
+    padding:170px 0px 120px 0px;
     padding-left:30px;
     box-sizing: border-box;
     text-align: center;
@@ -211,13 +211,20 @@
   .influenciator-account {
     text-align: center;
 
+    &:hover {
+      .avatar {
+        -webkit-filter: brightness(1);
+        -ms-filter: brightness(1);
+        filter: brightness(1);
+      }
+    }
     .avatar {
       box-shadow:0 0px 2px rgba(0,0,0,0.1);
-      border:4px solid #fff;
       max-width:90%;
-      height:300px;
+      height:240px;
       width:240px;
       margin:20px auto;
+      border-radius: 8px;
       background-size:cover;
       background-position: top center;
       background-color: $white;
@@ -226,6 +233,10 @@
       -ms-transition: all 0.5s ease-in-out;
       -o-transition: all 0.5s ease-in-out;
       transition: all 0.5s ease-in-out;
+
+      -webkit-filter: brightness(0.8);
+      -ms-filter: brightness(0.8);
+      filter: brightness(0.8);
     }
 
 
@@ -245,15 +256,30 @@
       & > div {
         padding:15px 0px;
         color:$white !important;
+
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        -ms-transition: background 0.3s ease-in-out;
+        -o-transition: background 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out;
         &.instagram-data {
           background:#3F729B;
           border-top-right-radius:6px;
           border-bottom-right-radius:6px;
+
+
+          &:hover {
+            background:darken(#3F729B, 8%);
+          }
         }
         &.twitter-data {
           background:#55ACEE;
           border-top-left-radius:6px;
           border-bottom-left-radius:6px;
+
+          &:hover {
+            background:darken(#55ACEE, 8%);
+          }
         }
         i {
           font-size:22px;
@@ -278,7 +304,9 @@
 
     &:hover {
       .avatar {
-        background-size:140%;
+        -webkit-filter: brightness(1);
+        -ms-filter: brightness(1);
+        filter: brightness(1);
       }
     }
     .avatar {
@@ -296,6 +324,10 @@
       -ms-transition: all 0.2s ease-in-out;
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
+
+      -webkit-filter: brightness(0.8);
+      -ms-filter: brightness(0.8);
+      filter: brightness(0.8);
     }
 
     .quote {

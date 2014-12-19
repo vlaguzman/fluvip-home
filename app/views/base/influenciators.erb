@@ -27,18 +27,20 @@
         <h1><%= i18 "pages.influenciator.validate.title" %></h1>
         <h4><%= i18 "pages.influenciator.validate.list" %></h4>
 
-        <div class="social-brands">
+        <div class="social-brands-icons">
           <i class="fa fa-instagram"></i>
           <i class="fa fa-twitter"></i>
           <i class="fa fa-youtube"></i>
-          <i class="fa fa-facebook"></i>
+          <i class="fa fa-facebook-square"></i>
           <i class="fa fa-foursquare"></i>
           <i class="fa fa-google-plus"></i>
+          <br/>
           <i class="fa fa-linkedin"></i>
           <i class="fa fa-pinterest"></i>
-          <i class="fa fa-tumblr"></i>
+          <i class="fa fa-tumblr-square"></i>
           <i class="fa fa-vine"></i>
           <i class="fa fa-wordpress"></i>
+          <i class="fa fa-twitch"></i>
         </div>
       </div>
       <div class="grid-2 hide-mobile"></div>
@@ -61,7 +63,45 @@
   </div>
 </section>-->
 
-<section id="clients-about" class="section light" align="center">
+<section id="validate-influenciator" class="light">
+  <div class="border-rlight">
+    <div class="container">
+      <div class="grid-6 grid-mobile-12 content-text">
+        <h1><%= i18 "pages.influenciator.how.title" %></h1>
+        <div class="tabs">
+          <div class="tab signup">
+            <%= i18 "pages.influenciator.how.tabs.tabs-content.signup" %>
+          </div>
+          <div class="tab expects hide">
+            <%= i18 "pages.influenciator.how.tabs.tabs-content.expects" %>
+          </div>
+          <div class="tab publishes hide">
+            <%= i18 "pages.influenciator.how.tabs.tabs-content.publishes" %>
+          </div>
+        </div>
+        <ul class="tabs-buttons">
+          <li><a id="signup" class="radius-left active-tab-button" href="#"><i class="fa fa-user"></i> <%= i18 "pages.influenciator.how.tabs.tabs-buttons.signup" %></a></li><li><a id="expects" href="#"><i class="fa fa-clock-o"></i> <%= i18 "pages.influenciator.how.tabs.tabs-buttons.expects" %></a></li><li><a id="publishes" href="#"  class="radius-right"><i class="fa fa-share-alt"></i> <%= i18 "pages.influenciator.how.tabs.tabs-buttons.publishes" %></a></li>
+        </ul>
+      </div>
+      <div class="grid-6 hide-mobile image-top right">
+        <div class="tabs images">
+          <div class="tab signup">
+            <img src="/assets/tabs/identify.png" style="width:80%;">
+          </div>
+          <div class="tab expects hide">
+            <img src="/assets/tabs/publish.png" style="width:80%;">
+          </div>
+          <div class="tab publishes hide">
+            <img src="/assets/tabs/monitoring.png" style="width:80%;">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="clients-about" class="section white" align="center">
   <div class="container">
     <h1 class=""><%= i18 "pages.influenciator.map.title" %></h1>
     <div class="row">
@@ -139,54 +179,20 @@
 
         </div>
       </div>
-
-
-
-
-
     </div>
     <div class="space-hero"></div>
 
   </div>
-</section>
 
-<section id="validate-influenciator" class="white">
-  <div class="border-rlight">
+  <div class="calltoaction">
     <div class="container">
-      <div class="grid-6 grid-mobile-12 content-text">
-        <h1><%= i18 "pages.influenciator.how.title" %></h1>
-        <div class="tabs">
-          <div class="tab signup">
-            <%= i18 "pages.influenciator.how.tabs.tabs-content.signup" %>
-          </div>
-          <div class="tab expects hide">
-            <%= i18 "pages.influenciator.how.tabs.tabs-content.expects" %>
-          </div>
-          <div class="tab publishes hide">
-            <%= i18 "pages.influenciator.how.tabs.tabs-content.publishes" %>
-          </div>
-        </div>
-        <ul class="tabs-buttons">
-          <li><a id="signup" class="radius-left active-tab-button" href="#"><i class="fa fa-user"></i> <%= i18 "pages.influenciator.how.tabs.tabs-buttons.signup" %></a></li><li><a id="expects" href="#"><i class="fa fa-clock-o"></i> <%= i18 "pages.influenciator.how.tabs.tabs-buttons.expects" %></a></li><li><a id="publishes" href="#"  class="radius-right"><i class="fa fa-share-alt"></i> <%= i18 "pages.influenciator.how.tabs.tabs-buttons.publishes" %></a></li>
-        </ul>
-      </div>
-      <div class="grid-6 hide-mobile image-top right">
-        <div class="tabs images">
-          <div class="tab signup">
-            <img src="/assets/tabs/identify.png" style="width:80%;">
-          </div>
-          <div class="tab expects hide">
-            <img src="/assets/tabs/publish.png" style="width:80%;">
-          </div>
-          <div class="tab publishes hide">
-            <img src="/assets/tabs/monitoring.png" style="width:80%;">
-          </div>
-        </div>
-      </div>
-
+      <h2 class="text-muted"><%= i18 "pages.influenciator.map.calltoaction.text" %></h2>
+      <a href="http://fluvip.com/users/sign_up_redesign" target="_top" class="btn"><%= i18 "pages.influenciator.map.calltoaction.button" %></a>
     </div>
   </div>
 </section>
+
+
 
 <div id="fancybox">
   <a href="#" class="close">X</a>

@@ -264,3 +264,35 @@ section {
 }
 
 .izqsep {margin-left:10px;}
+
+
+.social-brands-icons {
+  margin-top:50px;
+  i {
+    padding:20px;
+    border-radius:50%;
+    color:$white;
+    margin:15px;
+    font-size:25px;
+    background:darken($gray,10%);
+
+    -webkit-transition:background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    -ms-transition: background 0.2s ease-in-out;
+    -o-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+
+    &.fa-instagram          { &:hover { background: #AB8062; } }
+    &.fa-twitter            { &:hover { background: #55ACEE; } }
+    &.fa-youtube            { &:hover { background: #CC181E; } }
+    &.fa-facebook-square    { &:hover { background: #48649F; } }
+    &.fa-foursquare         { &:hover { background: #EF4B78; } }
+    &.fa-google-plus        { &:hover { background: #CC181E; } }
+    &.fa-linkedin           { &:hover { background: #0077B5; } }
+    &.fa-pinterest          { &:hover { background: #CE1C27; } }
+    &.fa-tumblr-square      { &:hover { background: #2C4762; } }
+    &.fa-vine               { &:hover { background: #10B48D; } }
+    &.fa-wordpress          { &:hover { background: #21759B; } }
+    &.fa-twitch             { &:hover { background: #6445A3; } }
+  }
+}

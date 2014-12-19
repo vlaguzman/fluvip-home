@@ -49,7 +49,6 @@
 
 
 #map {
-  
   position: relative;
   background:rgba($siginbutton,0.9);
 
@@ -112,16 +111,9 @@
 }
 
 .validate-influenciator {
-  .social-brands {
-    margin-top:50px;
-    i {
-      color:darken($gray,10%);
-      margin:15px;
-      font-size:25px;
 
-    }
-  }
 }
+
 #clients-about {
   padding:100px 0px;
   h1 {
@@ -130,8 +122,35 @@
     small {
       display:block;
       font-size:35px;
-      margin-top:-15px;
+      margin-top:10px;
     }
+  }
+
+  .calltoaction {
+    display: block;
+    margin-top:80px;
+
+    h2 {
+      font-size: 26px;
+    }
+
+    .btn {
+      margin-top:20px;
+      background:$siginbutton;
+      color:$white;
+      padding:15px 20px;
+      font-size: 18px;
+
+      -webkit-transition: all 0.2s ease-in-out ;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background: darken($siginbutton,10%);
+      }
+    }
+
   }
 }
 
