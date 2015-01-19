@@ -19,10 +19,10 @@
 
         <div class="grid">
           <div class="grid-12 ingressButtons" align="center">
-            <a href="http://fluvip.com/users/sign_up_redesign" target="_top" class="btn btn-lg influenciator">
+            <a href="http://fluvip.com/users/sign_up_redesign?locale=<%= session[:locale] || I18n.default_locale %>" target="_top" class="btn btn-lg influenciator">
               <%= i18("pages.home.principal-home.buttons.influenciator.title") %>
               <span class="mini"><%= i18("pages.home.principal-home.buttons.influenciator.call") %></span>
-            </a><em>0</em><a href="http://fluvip.com/users/sign_up_redesign" target="_top" class="btn btn-lg anunciante">
+            </a><em>0</em><a href="http://fluvip.com/users/sign_up_redesign?locale=<%= session[:locale] || I18n.default_locale %>" target="_top" class="btn btn-lg anunciante">
             <%= i18("pages.home.principal-home.buttons.advertiser.title") %>
             <span class="mini"><%= i18("pages.home.principal-home.buttons.advertiser.call") %></span>
             </a>

@@ -5,7 +5,7 @@
         <div class="grid-6 grid-mobile-12 message">
           <p class="descrip"><%= i18 "pages.influenciator.influenciator-container.descrip" %></p>
 
-          <a href="http://fluvip.com/users/sign_up_redesign" target="_top" class="btn">
+          <a href="http://fluvip.com/users/sign_up_redesign?locale=<%= session[:locale] || I18n.default_locale %>" target="_top" class="btn">
             <%= i18 "pages.influenciator.influenciator-container.button.text" %>
           </a>
           <a href="#" class="izqsep btn fancybox"><i class="fa fa-play"></i> <%= i18 "pages.seevideo" %></a>
@@ -187,7 +187,7 @@
   <div class="calltoaction">
     <div class="container">
       <h2 class="text-muted"><%= i18 "pages.influenciator.map.calltoaction.text" %></h2>
-      <a href="http://fluvip.com/users/sign_up_redesign" target="_top" class="btn"><%= i18 "pages.influenciator.map.calltoaction.button" %></a>
+      <a href="http://fluvip.com/users/sign_up_redesign?locale=<%= session[:locale] || I18n.default_locale %>" target="_top" class="btn"><%= i18 "pages.influenciator.map.calltoaction.button" %></a>
     </div>
   </div>
 </section>

@@ -33,7 +33,7 @@
           </div>
         </div>
         <div class="sigin-button">
-          <a href="http://fluvip.com/users/sign_in" target="_top" ><%= i18 'navegation.login' %></a>
+          <a href="http://fluvip.com/users/sign_in?locale=<%= session[:locale] || I18n.default_locale %>" target="_top" ><%= i18 'navegation.login' %></a>
         </div>
       </div>
     </div>
