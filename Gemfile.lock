@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/svenfuchs/i18n.git
+  revision: d4fb998394a389548e91d5f61af3ab77dd03472a
+  specs:
+    i18n (0.7.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -45,7 +51,6 @@ GEM
     http_router (0.11.1)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
-    i18n (0.6.11)
     json (1.8.1)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -142,6 +147,7 @@ DEPENDENCIES
   compass (~> 1.0.1)
   erubis (~> 2.7.0)
   foreman
+  i18n!
   newrelic_rpm
   padrino (= 0.12.4)
   passenger

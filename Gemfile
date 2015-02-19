@@ -4,6 +4,8 @@ ruby '2.1.4'
 
 gem 'rake'
 
+gem 'i18n', github: 'svenfuchs/i18n'
+
 gem 'compass', '~> 1.0.1'
 gem 'erubis', '~> 2.7.0'
 
