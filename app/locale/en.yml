@@ -41,6 +41,10 @@ en:
         text: Chile
         phone: (+56) 973995962
         email: chile@fluvip.com
+      brasil:
+        text: Brasil
+        phone: 
+        email: brasil@fluvip.com
     form:
       name: Name
       email: Email
