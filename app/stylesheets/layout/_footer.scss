@@ -110,7 +110,7 @@
 
 
   address {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-style: normal;
     line-height: 1.428571429;
     
@@ -121,6 +121,10 @@
     abbr {
       cursor: help;
       border-bottom: 1px dotted #999999;
+
+      &[title="address"] {
+        font-size: 12px;
+      }
     }
   }
 }
