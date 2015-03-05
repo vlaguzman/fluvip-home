@@ -12,7 +12,7 @@ en:
     langs:
       en: English
       es: Español
-      pt: Portuguese
+      pt: Português
   footer:
     titles:
       company: company
@@ -23,7 +23,7 @@ en:
     contact:
       colombia:
         text: Colombia
-        phone: (+57) 300 525 2306
+        phone: (+571) 703 3229
         email: colombia@fluvip.com
       peru:
         text: Peru
@@ -52,8 +52,8 @@ en:
         title: The best way to generate impact creating and sharing quality content
         buttons:
           influenciator:
-            title: Influencer
-            call: Sign up like influencer
+            title: Social Content Influencers
+            call: Sign up like Social Content influencers
           advertiser:
             title: Advertiser
             call: Sign up like advertiser
@@ -62,7 +62,7 @@ en:
         content: We have conducted more than <strong>100</strong> campaigns, reaching more than <strong>58.000</strong> users around the world.
       about:
         title: What is FLUVIP?
-        content: The technology platform that allows advertisers to identify the right influencers for their campaigns based on artificial intelligence systems. <br><br>We have the largest network of influencers in the region and we offer our clients a click away to finally optimize campaigns with our free real-time analytics.
+        content: The technology platform that allows advertisers to identify the right Social Content Influencers for their campaigns based on artificial intelligence systems. <br><br>We have the largest network of Social Content Influencers in the region and we offer our clients a click away to finally optimize campaigns with our free real-time analytics.
         footer: <strong>know more </strong> <a href="/aboutus" class="more">about us</a>
       clients_about:
         title: Some thoughts of who trust us
@@ -81,13 +81,13 @@ en:
             publish: Publish
             monitoring: Monitoring
           tabs-content:
-            identify: <strong>Identify</strong> influencers suitable for your campaign
+            identify: <strong>Identify</strong> Social Content Influencers suitable for your campaign
             publish: <strong>Publish</strong> your content across multiple channels.
             monitoring: Real-time <strong>monitoring</strong> and optimization of campaigns.
         footer: <strong>Learn more about our services for</strong>  <a href="/advertisers" class="more">brands</a>
     advertiser:
       advertiser_container:
-        descrip: 'FLUVIP allows you to identify the right influencer for your campaign, publish content to multiple social networks and measure your success in real time'
+        descrip: 'FLUVIP allows you to identify the right Social Content Influencers for your campaign, publish content to multiple social networks and measure your success in real time'
         quote:
           text: '"We validate user experiences"'
           person: Sebastián Jasminoy
@@ -95,12 +95,12 @@ en:
         signup: Sign up like an advertiser
       validate:
         title: We validate user experiences
-        content: Through our influencers seek validate experiences, as we consider relevant to the success of your campaign identifying the right influencer.<br><br>
+        content: Through our Social Content Influencers seek validate experiences, as we consider relevant to the success of your campaign identifying the right Social Content Influencer.<br><br>
                  If at the end of a golf tournament, Tiger Woods talks about the excellent experience with a new Nike glove, surely will be a credible experience that generate conversions.
                  At that time he is validating an use experience. <br><br>
                  In FLUVIP commit to fulfill our promise to you reach your goals.
       call:
-        content: Talk to an influencer advisor. In FLUVIP expect your call to join you in the success of your campaign.
+        content: Talk to an Social Content Influencer advisor. In FLUVIP expect your call to join you in the success of your campaign.
         phone: (+1) 786 681 2966
       clients-advertiser:
         title: Our customers
@@ -111,7 +111,7 @@ en:
         button:
           text: "Create your account like #influencer, is free"
       map:
-        title: "<span class='morebig'>+30.000 #influenciadores</span> <small>LATAM + USA + Spain</small>"
+        title: "<span class='morebig'>+30.000 #influencers</span> <small>LATAM + USA + Spain</small>"
         calltoaction:
           text: Begin today to monetize your social networks!
           button: Register your account
@@ -160,7 +160,7 @@ en:
       span: Michael Jordan
       about-usdata:
         title: About us
-        content: 'FLUVIP is a global company based in Silicon Valley. We have developed a technology platform that allows brands to connect with the most relevant influencers in the world through multi-channels: Twitter, Instagram, Vine, Facebook, and Blogs. <br class="alto"> We measure the reactions and behaviors of users in social networks to obtain more efficient segmentation results and to achieve more effective campaigns. <br class="alto"> Our team of engineers, marketers, designers, and specialists in Social Media Marketing works closely with our customers day to day to customize their campaigns, thus creating new success stories that go viral on Social Networks.'
+        content: 'FLUVIP is a global company based in Silicon Valley. We have developed a technology platform that allows brands to connect with the most relevant Social Content Influencers in the world through multi-channels: Twitter, Instagram, Vine, Facebook, and Blogs. <br class="alto"> We measure the reactions and behaviors of users in social networks to obtain more efficient segmentation results and to achieve more effective campaigns. <br class="alto"> Our team of engineers, marketers, designers, and specialists in Social Media Marketing works closely with our customers day to day to customize their campaigns, thus creating new success stories that go viral on Social Networks.'
       aboutus-content:
         title: Team
       aboutus-partners:
