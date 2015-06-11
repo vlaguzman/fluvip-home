@@ -16,6 +16,10 @@ Fluvipp::App.controllers :base, map: '/' do
     render "base/aboutus"
   end
 
+  get :learn do
+    render "base/learn"
+  end
+
   get :legal do
     @navegation = "slide"
     render "base/legal"
