@@ -1,16 +1,21 @@
 <section id="advertirser-container" class="principal-container">
   <div class="landing">
-    <div class="container" align="center">
+    <div class="container">
       <div class="wrapper">
-        <br>
-        <p class="descrip">
-          <%= i18 "pages.learn.title" %> <br/>
-        </p>
-        <br>
-        <object data="/assets/resources/el_valor_del_influence_marketing_y_de_un_influenciador.pdf" type="application/pdf" width="100%" height="700">
-          <embed src="/assets/resources/el_valor_del_influence_marketing_y_de_un_influenciador.pdf" type="application/pdf" />
-        </object>
+        <div class="grid-7 grid-mobile-12 message">
+          <p class="descrip">
+            <%= i18 "pages.learn.title" %> <br/>
+          </p>
+          <h4 class="text-muted"><%= i18 "pages.learn.description" %></h4>
+          <a href="/assets/resources/el_valor_del_influence_marketing_y_de_un_influenciador.pdf" target="_top" class="btn" download=<%= i18 "pages.learn.file_name" %>>
+            <%= i18 "pages.learn.download" %>
+          </a>
+        </div>
+        <div class="grid-5 grid-mobile-12 image">
+
+        </div>
       </div>
     </div>
   </div>
 </section>
+
